@@ -48,58 +48,111 @@
         </nav>
         
         
-        
-        <section id="what-we-do">
+        <section id="news">
             <div class="section-content">
                 <div class="container">
-                    <h2>Coming soon...</h2>
-                    <p class = lead> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis voluptates nemo at consequatur, blanditiis qui sint quidem dolores omnis aspernatur veniam. Quidem mollitia error sapiente accusantium facere sint reiciendis culpa!</p>
-                
+                    
+                    <h3>Latest news</h3>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero placeat debitis ad vitae repudiandae architecto, ipsum tenetur odio animi nulla nihil deleniti voluptatibus et in incidunt consequuntur! Assumenda, suscipit, sunt!</p>
+                    
+                    <hr>
+                    
                     <div class="row">
                         <div class="col-sm-12">
-                            <div class="card-group">
+                            
+                            <div class="card-columns">
                                 <div class="card">
+                                    <img class="card-img-top" src="img/computer.jpg" alt="computer">
                                     <div class="card-block">
-                                        <h4 class="card-title">Strategy &amp; Planning</h4>
-                                        <h6 class="card-subtitile">Support card subtitle</h6>
-                                    </div>
-                                    <img src="img/chalkboard.jpg" alt="a chalkboard">
-                                    <div class="card-block">
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis tempora officia nihil, laudantium impedit ut saepe quis neque, tempore quia hic! Nobis molestias dolor quia reprehenderit voluptatibus. Nostrum, minus. Blanditiis.</p>
-                                        <button type="button" class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">learn more</button>
+                                        <h4 class="card-title">Card title that wraps to a new line</h4>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     </div>
                                 </div>
-
-
+                                <div class="card card-block">
+                                    <blockquote class="card-blockquote">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                        <footer>
+                                            <small class="text-muted">
+                                            Someone famous in <cite title="Source Title">Source Title</cite>
+                                            </small>
+                                        </footer>
+                                    </blockquote>
+                                </div>
                                 <div class="card">
+                                    <img class="card-img-top" src="img/working.jpg" alt="working">
                                     <div class="card-block">
-                                        <h4 class="card-title">Creative &amp; Design</h4>
-                                        <h6 class="card-subtitile">Support card subtitle</h6>
-                                    </div>
-                                    <img src="img/working.jpg" alt="working on a laptop">
-                                    <div class="card-block">
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis tempora officia nihil, laudantium impedit ut saepe quis neque, tempore quia hic! Nobis molestias dolor quia reprehenderit voluptatibus. Nostrum, minus. Blanditiis.</p>
-                                        <button type="button" class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">learn more</button>
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                     </div>
                                 </div>
-
+                                <div class="card card-block card-inverse card-primary text-xs-center">
+                                    <blockquote class="card-blockquote">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                                        <footer>
+                                            <small>
+                                            Someone famous in <cite title="Source Title">Source Title</cite>
+                                            </small>
+                                        </footer>
+                                    </blockquote>
+                                </div>
+                                <div class="card card-block text-xs-center">
+                                    <h4 class="card-title">Card title</h4>
+                                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
                                 <div class="card">
-                                    <div class="card-block">
-                                        <h4 class="card-title">Programming &amp; Technical</h4>
-                                        <h6 class="card-subtitile">Support card subtitle</h6>
-                                    </div>
-                                    <img src="img/programming.jpg" alt="fingers typing on a keyboard">
-                                    <div class="card-block">
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis tempora officia nihil, laudantium impedit ut saepe quis neque, tempore quia hic! Nobis molestias dolor quia reprehenderit voluptatibus. Nostrum, minus. Blanditiis.</p>
-                                        <button type="button" class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">learn more</button>
-                                    </div>
+                                    <img class="card-img" src="img/concert.jpg" alt="concert">
+                                </div>
+                                <div class="card card-block text-xs-right card-warning card-inverse">
+                                    <blockquote class="card-blockquote">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                        <footer>
+                                            <small class="text-muted">
+                                            Someone famous in <cite title="Source Title">Source Title</cite>
+                                            </small>
+                                        </footer>
+                                    </blockquote>
+                                </div>
+                                <div class="card card-block">
+                                    <h4 class="card-title">Card title</h4>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
+                            
+                            <hr>
+                            
+                            <nav class="text-center">
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>                       
+                            
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </section>
+        
+        
         
         
         <footer id="footer-main">
