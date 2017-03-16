@@ -1,2 +1,2 @@
 ECWeb
-Use LAMP stack to develop a startup web git initgit initsite.
+Use LAMP stack to develop a startup web site.
