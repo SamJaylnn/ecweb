@@ -1,0 +1,102 @@
+/* styles.css*/
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* cover */
+#cover {
+    background: #222 url('img/dark_laptop.jpeg') center center no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption {
+    width: 100%;
+}
+
+
+/* let the nav bar cover on pading so that smooth stick */
+#nav-main {
+    margin-bottom: -50px;
+    z-index: 1001;
+}
+
+/* sticky nav class */
+.fixednav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+}
+
+/* resize the img in carousel */
+.carousel-inner {
+    height: 500px;
+}
+
+.carousel-inner > .carousel-item {
+    height: inherit;
+}
+
+.carousel-inner .carousel-item img {
+    filter: brightness(50%);
+    height: 900px;
+}
+
+.carousel-inner .carousel-item .carousel-caption {
+    font-size: x-large;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.img-fluid {
+    width: 100%;
+    height: 100%;
+}
+
+.section-content {
+    padding: 5rem 0;
+}
+
+
+/* about.php */
+#about {
+    padding-top: 50px;
+    background: url('img/chalkboard.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.about-text {
+    text-align: left;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+
+}
+
+
+.container {
+    text-align: center;
+}
