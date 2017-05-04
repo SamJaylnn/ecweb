@@ -1,0 +1,56 @@
+[03-May-2017 22:35:08 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/resources/resources/config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/resources/home.php on line 2
+[03-May-2017 22:35:08 UTC] PHP Stack trace:
+[03-May-2017 22:35:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/resources/home.php:0
+[03-May-2017 22:35:08 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/resources/resources/config.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/resources/home.php on line 2
+[03-May-2017 22:35:08 UTC] PHP Stack trace:
+[03-May-2017 22:35:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/resources/home.php:0
+[03-May-2017 22:35:59 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/resources/resources/config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/resources/home.php on line 2
+[03-May-2017 22:35:59 UTC] PHP Stack trace:
+[03-May-2017 22:35:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/resources/home.php:0
+[03-May-2017 22:35:59 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/resources/resources/config.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/resources/home.php on line 2
+[03-May-2017 22:35:59 UTC] PHP Stack trace:
+[03-May-2017 22:35:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/resources/home.php:0
+[03-May-2017 22:36:00 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/resources/resources/config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/resources/home.php on line 2
+[03-May-2017 22:36:00 UTC] PHP Stack trace:
+[03-May-2017 22:36:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/resources/home.php:0
+[03-May-2017 22:36:00 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/resources/resources/config.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/resources/home.php on line 2
+[03-May-2017 22:36:00 UTC] PHP Stack trace:
+[03-May-2017 22:36:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/resources/home.php:0
+[04-May-2017 01:12:52 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/user/resources/database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/user/query_result.php on line 2
+[04-May-2017 01:12:52 UTC] PHP Stack trace:
+[04-May-2017 01:12:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/user/query_result.php:0
+[04-May-2017 01:12:52 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/user/resources/database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/user/query_result.php on line 2
+[04-May-2017 01:12:52 UTC] PHP Stack trace:
+[04-May-2017 01:12:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/user/query_result.php:0
+[04-May-2017 01:59:32 UTC] PHP Warning:  fopen(txt/password.txt): failed to open stream: No such file or directory in /home/ubuntu/workspace/secure/results.php on line 80
+[04-May-2017 01:59:32 UTC] PHP Stack trace:
+[04-May-2017 01:59:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/secure/results.php:0
+[04-May-2017 01:59:32 UTC] PHP   2. fopen() /home/ubuntu/workspace/secure/results.php:80
+[04-May-2017 02:01:57 UTC] PHP Warning:  fopen(/resources/txt/password.txt): failed to open stream: No such file or directory in /home/ubuntu/workspace/secure/results.php on line 80
+[04-May-2017 02:01:57 UTC] PHP Stack trace:
+[04-May-2017 02:01:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/secure/results.php:0
+[04-May-2017 02:01:57 UTC] PHP   2. fopen() /home/ubuntu/workspace/secure/results.php:80
+[04-May-2017 02:02:01 UTC] PHP Warning:  fopen(/resources/txt/password.txt): failed to open stream: No such file or directory in /home/ubuntu/workspace/secure/results.php on line 80
+[04-May-2017 02:02:01 UTC] PHP Stack trace:
+[04-May-2017 02:02:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/secure/results.php:0
+[04-May-2017 02:02:01 UTC] PHP   2. fopen() /home/ubuntu/workspace/secure/results.php:80
+[04-May-2017 02:02:19 UTC] PHP Warning:  fopen(/resources/txt/password.txt): failed to open stream: No such file or directory in /home/ubuntu/workspace/secure/results.php on line 80
+[04-May-2017 02:02:19 UTC] PHP Stack trace:
+[04-May-2017 02:02:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/secure/results.php:0
+[04-May-2017 02:02:19 UTC] PHP   2. fopen() /home/ubuntu/workspace/secure/results.php:80
+[04-May-2017 02:04:43 UTC] PHP Warning:  fopen(/resources/txt/password.txt): failed to open stream: No such file or directory in /home/ubuntu/workspace/secure/results.php on line 80
+[04-May-2017 02:04:43 UTC] PHP Stack trace:
+[04-May-2017 02:04:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/secure/results.php:0
+[04-May-2017 02:04:43 UTC] PHP   2. fopen() /home/ubuntu/workspace/secure/results.php:80
+[04-May-2017 02:04:54 UTC] PHP Warning:  fopen(/resources/txt/password.txt): failed to open stream: No such file or directory in /home/ubuntu/workspace/secure/results.php on line 71
+[04-May-2017 02:04:54 UTC] PHP Stack trace:
+[04-May-2017 02:04:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/secure/results.php:0
+[04-May-2017 02:04:54 UTC] PHP   2. fopen() /home/ubuntu/workspace/secure/results.php:71
+[04-May-2017 02:09:05 UTC] PHP Warning:  fopen(/home/ubuntu/workspace/secure/resources/txt/password.txt): failed to open stream: No such file or directory in /home/ubuntu/workspace/secure/results.php on line 80
+[04-May-2017 02:09:05 UTC] PHP Stack trace:
+[04-May-2017 02:09:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/secure/results.php:0
+[04-May-2017 02:09:05 UTC] PHP   2. fopen() /home/ubuntu/workspace/secure/results.php:80
+[04-May-2017 02:09:42 UTC] PHP Warning:  fopen(./resources/txt/password.txt): failed to open stream: No such file or directory in /home/ubuntu/workspace/secure/results.php on line 80
+[04-May-2017 02:09:42 UTC] PHP Stack trace:
+[04-May-2017 02:09:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/secure/results.php:0
+[04-May-2017 02:09:42 UTC] PHP   2. fopen() /home/ubuntu/workspace/secure/results.php:80

@@ -1,3 +1,6 @@
+<?php
+  require_once(dirname(__FILE__) . "/resources/config.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -25,19 +28,25 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link" href="home.php">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/home.php">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.php">About</a>
+                <a class="nav-link" href="/about.php">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="products.php">Products</a>
+                <a class="nav-link" href="/product/index.php">Products</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="news.php">News</a>
+                <a class="nav-link" href="/news.php">News</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contacts.php">Contacts</a>
+                <a class="nav-link" href="/contacts.php">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/secure/index.php">Secure</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/user/index.php">User</a>
               </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -62,7 +71,7 @@
                             
                             <div class="card-columns">
                                 <div class="card">
-                                    <img class="card-img-top" src="img/computer.jpg" alt="computer">
+                                    <img class="card-img-top" src="<?php echo $config["paths"]["img"]; ?>computer.jpg" alt="computer">
                                     <div class="card-block">
                                         <h4 class="card-title">Card title that wraps to a new line</h4>
                                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -79,7 +88,7 @@
                                     </blockquote>
                                 </div>
                                 <div class="card">
-                                    <img class="card-img-top" src="img/working.jpg" alt="working">
+                                    <img class="card-img-top" src="<?php echo $config["paths"]["img"]; ?>working.jpg" alt="working">
                                     <div class="card-block">
                                         <h4 class="card-title">Card title</h4>
                                         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -102,7 +111,7 @@
                                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
                                 <div class="card">
-                                    <img class="card-img" src="img/concert.jpg" alt="concert">
+                                    <img class="card-img" src="<?php echo $config["paths"]["img"]; ?>concert.jpg" alt="concert">
                                 </div>
                                 <div class="card card-block text-xs-right card-warning card-inverse">
                                     <blockquote class="card-blockquote">

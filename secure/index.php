@@ -9,7 +9,7 @@
 
 
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
         
         <!-- Custom CSS -->
         <link rel="stylesheet" href="styles.css">
@@ -20,7 +20,7 @@
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="home.php">ECWeb</a>
+          <a class="navbar-brand" href="/home.php">ECWeb</a>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
@@ -36,10 +36,10 @@
               <li class="nav-item">
                 <a class="nav-link" href="/news.php">News</a>
               </li>
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="/contacts.php">Contacts</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="/secure/index.php">Secure</a>
               </li>
               <li class="nav-item">
@@ -54,54 +54,42 @@
         </nav>
         
         
-        <section id="contact" style="margin:80px 0 0 0">
+        <section id="login">
             <div class="section-content">
-              <div class="container">
-                  <h2>Contact Me</h2>
-                  <br>
-                  <?php
-                      $file_handle = fopen("resources/txt/contacts.txt", "r");
-                      while (!feof($file_handle)) {
-                         $line = fgets($file_handle);
-                         echo "<p>$line</p>";
-                      }
-                      fclose($file_handle);
-                  ?>
-              </div>
-              <br>
-              <br>
-              <div class="container">            
-                  <h2>Get In Touch</h2>
-                  <br>
-                <div class="form-group row">
-                  <label for="example-text-input" class="col-2 col-form-label">Name</label>
-                  <div class="col-10">
-                    <input class="form-control" type="text" placeholder="Bill Gates" id="text-input">
-                  </div>
+                <div class="container">   
+                    <form action = "results.php" method = "post">
+                        <h2>Admin Login</h2>
+                        <br>
+                      <div class="form-group row">
+                        <label for="example-text-input" class="col-2 col-form-label">User Name</label>
+                        <div class="col">
+                          <input name="USERNAME" class="form-control" type="text">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="example-email-input" class="col-2 col-form-label">Password</label>
+                        <div class="col" style="width:30%">
+                          <input name = "PASSWORD" class="form-control" type="password">
+                        </div>
+                      </div>
+                      <button type="submit" name="Enter" class="btn btn-primary">Enter</button>
+                      <button type="submit" name="NewUser" class="btn btn-primary">New Admin</button>
+                    </form>
+                    <div>
+                      <br>
+                      <p>Use "admin" as user name and password to enter. Or you can fill the form and register a new admin account for your own.</p>
+                    </div>
                 </div>
-                <div class="form-group row">
-                  <label for="example-email-input" class="col-2 col-form-label">Email</label>
-                  <div class="col-10">
-                    <input class="form-control" type="email" placeholder="bill.gates@ecweb.com" id="email-input">
-                  </div>
-                </div>
-                <div class="form-group row">
-                  <label for="example-tel-input" class="col-2 col-form-label">Message</label>
-                  <div class="col-10">
-                    <input class="form-control" type="tel" placeholder="I want to..." id="message-input">
-                  </div>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </div>
             </div>
         </section>
-        
-        
+         
+                    
         <footer id="footer-main">
             <div class="container">
                 <p>Copyright &copy; 2017 Shuzhong Chen</p>
             </div>
         </footer>
+    
         
         
         <!-- jQuery first, then Bootstrap JS. -->
@@ -139,7 +127,5 @@
         
     </body>
 </html>
-
-
 
 

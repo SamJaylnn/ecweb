@@ -1,3 +1,6 @@
+<?php
+  require_once(dirname(__FILE__) . "/resources/config.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -9,7 +12,7 @@
 
 
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
         
         <!-- Custom CSS -->
         <link rel="stylesheet" href="styles.css">
@@ -25,19 +28,25 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link" href="home.php">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/home.php">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="about.php">About</a>
+                <a class="nav-link" href="/about.php">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="products.php">Products</a>
+                <a class="nav-link" href="/product/index.php">Products</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="news.php">News</a>
+                <a class="nav-link" href="/news.php">News</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contacts.php">Contacts</a>
+                <a class="nav-link" href="/contacts.php">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/secure/index.php">Secure</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/user/index.php">User</a>
               </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -82,7 +91,7 @@
                                         <h4 class="card-title">Strategy &amp; Planning</h4>
                                         <h6 class="card-subtitile">Support card subtitle</h6>
                                     </div>
-                                    <img src="img/chalkboard.jpg" alt="a chalkboard">
+                                    <img src="<?php echo $config["paths"]["img"]; ?>chalkboard.jpg" alt="a chalkboard">
                                     <div class="card-block">
                                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis tempora officia nihil, laudantium impedit ut saepe quis neque, tempore quia hic! Nobis molestias dolor quia reprehenderit voluptatibus. Nostrum, minus. Blanditiis.</p>
                                         <button type="button" class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">learn more</button>
@@ -95,7 +104,7 @@
                                         <h4 class="card-title">Creative &amp; Design</h4>
                                         <h6 class="card-subtitile">Support card subtitle</h6>
                                     </div>
-                                    <img src="img/working.jpg" alt="working on a laptop">
+                                    <img src="<?php echo $config["paths"]["img"]; ?>working.jpg" alt="working on a laptop">
                                     <div class="card-block">
                                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis tempora officia nihil, laudantium impedit ut saepe quis neque, tempore quia hic! Nobis molestias dolor quia reprehenderit voluptatibus. Nostrum, minus. Blanditiis.</p>
                                         <button type="button" class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">learn more</button>
@@ -107,7 +116,7 @@
                                         <h4 class="card-title">Programming &amp; Technical</h4>
                                         <h6 class="card-subtitile">Support card subtitle</h6>
                                     </div>
-                                    <img src="img/programming.jpg" alt="fingers typing on a keyboard">
+                                    <img src="<?php echo $config["paths"]["img"]; ?>programming.jpg" alt="fingers typing on a keyboard">
                                     <div class="card-block">
                                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis tempora officia nihil, laudantium impedit ut saepe quis neque, tempore quia hic! Nobis molestias dolor quia reprehenderit voluptatibus. Nostrum, minus. Blanditiis.</p>
                                         <button type="button" class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">learn more</button>

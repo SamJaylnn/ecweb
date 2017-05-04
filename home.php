@@ -1,3 +1,6 @@
+<?php
+  require_once(dirname(__FILE__) . "/resources/config.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -25,19 +28,25 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="home.php">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/home.php">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.php">About</a>
+                <a class="nav-link" href="/about.php">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="products.php">Products</a>
+                <a class="nav-link" href="/product/index.php">Products</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="news.php">News</a>
+                <a class="nav-link" href="/news.php">News</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contacts.php">Contacts</a>
+                <a class="nav-link" href="/contacts.php">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/secure/index.php">Secure</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/user/index.php">User</a>
               </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -56,21 +65,21 @@
               </ol>
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
-                    <img class="d-block img-fluid" src="img/laptop_coffee_light.jpeg" alt="Responsive image">
+                    <img class="d-block img-fluid" src="<?php echo $config["paths"]["img"]; ?>laptop_coffee_light.jpeg" alt="Responsive image">
                     <div class="carousel-caption">
                         <h1>Passion</h1>
                         <p>We love what we do.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block img-fluid" src="img/lego_keyboard.jpeg" alt="Responsive image">
+                    <img class="d-block img-fluid" src="<?php echo $config["paths"]["img"]; ?>lego_keyboard.jpeg" alt="Responsive image">
                     <div class="carousel-caption">
                         <h1>Design</h1>
                         <p>We say what we do.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block img-fluid" src="img/screen_code.jpeg" alt="Responsive image">
+                    <img class="d-block img-fluid" src="<?php echo $config["paths"]["img"]; ?>screen_code.jpeg" alt="Responsive image">
                     <div class="carousel-caption">
                         <h1>Results</h1>
                         <p>We do what we say.</p>
@@ -103,7 +112,7 @@
                                         <h4 class="card-title">E-Commerce</h4>
                                         <h6 class="card-subtitile">Visual & Pragmatic</h6>
                                     </div>
-                                    <img src="img/e-commerce.jpeg" alt="e-commerce">
+                                    <img src="<?php echo $config["paths"]["img"]; ?>e-commerce.jpeg" alt="e-commerce">
                                     <div class="card-block">
                                         <p class="card-text">Beautiful cinematic designs optimized for all screen sizes and types. Compatible with Retina high pixel density displays.</p>
                                         <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">learn more</button>
@@ -116,7 +125,7 @@
                                         <h4 class="card-title">Responsive Design</h4>
                                         <h6 class="card-subtitile">Fully responsive</h6>
                                     </div>
-                                    <img src="img/responsive-design.jpg" alt="responsive-design">
+                                    <img src="<?php echo $config["paths"]["img"]; ?>responsive-design.jpg" alt="responsive-design">
                                     <div class="card-block">
                                         <p class="card-text">Featuring trending modern web standards. Clean and easy framework design for worry and hassle free customizations.</p>
                                         <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">learn more</button>
@@ -128,7 +137,7 @@
                                         <h4 class="card-title">Web Security</h4>
                                         <h6 class="card-subtitile">Dedicated support</h6>
                                     </div>
-                                    <img src="img/web-security.jpeg" alt="web-security">
+                                    <img src="<?php echo $config["paths"]["img"]; ?>web-security.jpeg" alt="web-security">
                                     <div class="card-block">
                                         <p class="card-text">Quick response with regular updates. Each update will include great new features and enhancements for free.</p>
                                         <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">learn more</button>

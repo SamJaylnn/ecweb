@@ -9,7 +9,7 @@
 
 
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
         
         <!-- Custom CSS -->
         <link rel="stylesheet" href="styles.css">
@@ -20,7 +20,7 @@
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="home.php">ECWeb</a>
+          <a class="navbar-brand" href="/home.php">ECWeb</a>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
@@ -36,13 +36,13 @@
               <li class="nav-item">
                 <a class="nav-link" href="/news.php">News</a>
               </li>
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="/contacts.php">Contacts</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/secure/index.php">Secure</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="/user/index.php">User</a>
               </li>
             </ul>
@@ -54,54 +54,62 @@
         </nav>
         
         
-        <section id="contact" style="margin:80px 0 0 0">
+        <section id="create" style="margin: 150px 0">
             <div class="section-content">
-              <div class="container">
-                  <h2>Contact Me</h2>
-                  <br>
-                  <?php
-                      $file_handle = fopen("resources/txt/contacts.txt", "r");
-                      while (!feof($file_handle)) {
-                         $line = fgets($file_handle);
-                         echo "<p>$line</p>";
-                      }
-                      fclose($file_handle);
-                  ?>
-              </div>
-              <br>
-              <br>
-              <div class="container">            
-                  <h2>Get In Touch</h2>
-                  <br>
-                <div class="form-group row">
-                  <label for="example-text-input" class="col-2 col-form-label">Name</label>
-                  <div class="col-10">
-                    <input class="form-control" type="text" placeholder="Bill Gates" id="text-input">
-                  </div>
+                <div class="container" style="max-width: 800px; align-items: center;">   
+                    <form action = "create_result.php" method = "post">
+                        <h2>User Creation</h4>
+                        <br>
+                      <div class="form-group row">
+                        <label for="example-text-input" class="col-2 col-form-label">First Name</label>
+                        <div class="col">
+                          <input name="FIRSTNAME" class="form-control" type="text" required>
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="example-email-input" class="col-2 col-form-label">Last Name</label>
+                        <div class="col" style="width:30%">
+                          <input name = "LASTNAME" class="form-control" type="text" required>
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="example-text-input" class="col-2 col-form-label">Email</label>
+                        <div class="col">
+                          <input name="EMAIL" class="form-control" type="text" required>
+                        </div>
+                      </div>
+                      <div class="form-group row" style="align-items: center;">
+                        <label for="example-text-input" class="col-2 col-form-label">Home Address</label>
+                        <div class="col">
+                          <input name="ADDRESS" class="form-control" type="text" required>
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="example-text-input" class="col-2 col-form-label">Home Phone</label>
+                        <div class="col">
+                          <input name="HOMEPHONE" class="form-control" type="text" required>
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="example-text-input" class="col-2 col-form-label">Cell Phone</label>
+                        <div class="col">
+                          <input name="CELLPHONE" class="form-control" type="text" required>
+                        </div>
+                      </div>
+                      <br>
+                      <button type="submit" name="Enter" class="btn btn-primary">Create New User</button>
+                    </form>
                 </div>
-                <div class="form-group row">
-                  <label for="example-email-input" class="col-2 col-form-label">Email</label>
-                  <div class="col-10">
-                    <input class="form-control" type="email" placeholder="bill.gates@ecweb.com" id="email-input">
-                  </div>
-                </div>
-                <div class="form-group row">
-                  <label for="example-tel-input" class="col-2 col-form-label">Message</label>
-                  <div class="col-10">
-                    <input class="form-control" type="tel" placeholder="I want to..." id="message-input">
-                  </div>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </div>
             </div>
         </section>
-        
-        
+         
+                    
         <footer id="footer-main">
             <div class="container">
                 <p>Copyright &copy; 2017 Shuzhong Chen</p>
             </div>
         </footer>
+    
         
         
         <!-- jQuery first, then Bootstrap JS. -->
@@ -135,6 +143,16 @@
                 } // End if
               });
             });
+        </script>
+        
+        <!-- Cannot submit empty input -->
+        <script type="text/javascript">
+            var x;
+            x = document.getElementById("roll-input").value;
+            if (x == "") {
+                alert("Enter a Valid Roll Number");
+                return false;
+            };
         </script>
         
     </body>
