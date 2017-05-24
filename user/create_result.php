@@ -52,10 +52,29 @@
               <li class="nav-item active">
                 <a class="nav-link" href="/user/index.php">User</a>
               </li>
+              <li class="nav-item">
+      				  <a class="nav-link" href="/market/index.php">Market</a>
+      				</li>
+      	    <?php 
+                session_start(); 
+                if (isset($_SESSION["user"])) {
+                    print( "<li class=\"nav-item\"> ");
+      			    print( "<a class=\"nav-link\" href=\"/myacc/view_my_order.php\">MyAcc</a> ");
+      		        print( "</li> ");
+                }
+            ?>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="text" placeholder="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <form class="form-inline my-2 my-lg-0" action="/login/login.php" method="post">
+              <?php 
+                session_start(); 
+                if (isset($_SESSION["user"])) {
+                    print( "<input type=\"hidden\" name=\"type\" value=\"logout\" />" );
+                    print( "<button class=\"btn btn-outline-success my-2 my-sm-0\" type=\"submit\">Logout</button>");
+                } else {
+                    print( "<input type=\"hidden\" name=\"type\" value=\"login\" />" );
+                    print( "<button class=\"btn btn-outline-success my-2 my-sm-0\" type=\"submit\">Login</button>");
+                }
+              ?>
             </form>
           </div>
         </nav>
@@ -68,10 +87,13 @@
                         extract( $_POST );
                         
                         // build SELECT query
-                        $query = "INSERT INTO user VALUES ('$FIRSTNAME', '$LASTNAME', '$EMAIL', '$ADDRESS', '$HOMEPHONE', '$CELLPHONE');";
+                        $query = "INSERT INTO user VALUES ('$FIRSTNAME', '$LASTNAME', '$EMAIL', '$ADDRESS', '$HOMEPHONE', '$CELLPHONE','$USERNAME','$PASSWORD');";
 
-                        $result = mysqlConnect($query);
+                        if($result = mysqlConnect($query)) {
                         print( "<h3>Your data have been added successfully.</h3>" );
+                        } else {
+                          print( "<h3>Failed!</h3>" );
+                        }
                         
                            
                        

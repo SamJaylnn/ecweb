@@ -1,7 +1,11 @@
 <?php
-  require_once($_SERVER["DOCUMENT_ROOT"] . "/resources/database.php");
-  require_once($_SERVER["DOCUMENT_ROOT"] . "/resources/config.php");
+session_start();
+include_once("config.php");
+
+//current URL of the Page. cart_update.php redirects back to this URL
+$current_url = urlencode($url="http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -16,7 +20,7 @@
         <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
         
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="styles.css">
+        <link href="/product/style/style.css" rel="stylesheet" type="text/css">
         <?php
 
         ?>
@@ -28,7 +32,7 @@
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="home.php">ECWeb</a>
+          <a class="navbar-brand" href="/home.php">ECWeb</a>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
@@ -53,29 +57,100 @@
               <li class="nav-item">
                 <a class="nav-link" href="/user/index.php">User</a>
               </li>
+              <li class="nav-item">
+      				  <a class="nav-link" href="/market/index.php">Market</a>
+      				</li>
+      	    <?php 
+                session_start(); 
+                if (isset($_SESSION["user"])) {
+                    print( "<li class=\"nav-item\"> ");
+      			    print( "<a class=\"nav-link\" href=\"/myacc/view_my_order.php\">MyAcc</a> ");
+      		        print( "</li> ");
+                }
+            ?>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="text" placeholder="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <form class="form-inline my-2 my-lg-0" action="/login/login.php" method="post">
+              <?php 
+                session_start(); 
+                if (isset($_SESSION["user"])) {
+                    print( "<input type=\"hidden\" name=\"type\" value=\"logout\" />" );
+                    print( "<button class=\"btn btn-outline-success my-2 my-sm-0\" type=\"submit\">Logout</button>");
+                } else {
+                    print( "<input type=\"hidden\" name=\"type\" value=\"login\" />" );
+                    print( "<button class=\"btn btn-outline-success my-2 my-sm-0\" type=\"submit\">Login</button>");
+                }
+              ?>
             </form>
           </div>
         </nav>
         
-        
-        
-        
-        <section id="product_content" style="margin:100px 0px">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-2 " id="sidebar" style="margin:0px auto">
-                  <ul class="nav flex-column" >
-                      <br>
-                      <li class="nav-item"><a class="btn btn-primary btn-block" href="product_fivep.php">5 previously visited</a></li>
-                      <br>
-                      <li class="nav-item"><a class="btn btn-primary btn-block" href="product_fivem.php">5 mostly visited</a></li>
-                  </ul>
-              </div>
-              <div class="col-sm-9" ">
+<!-- Left bar Start -->
+<?php
+	echo '<div class="cart-view-table-left" id="view-cart">';
+	echo '<h4>Sort</h4>';
+
+	echo '<table width="100%"  cellpadding="6" cellspacing="0">';
+	echo '<tbody>';
+
+	echo '<tr>';
+	echo '<td><a href="product_fivem.php"> Five most visited item </a></td>';
+	echo '</tr>';
+	echo '<tr>';
+	echo '<td><a href="product_fivep.php"> Five previous visited item </a></td>';
+	echo '</tr>';
+	echo '<tr>';
+	echo '<td><a href="product_fivet.php"> Five top rating item </a></td>';
+	echo '</tr>';	
+	echo '</tbody>';
+	echo '</table>';
+	
+
+	echo '</div>';
+?>
+<!-- Left bar End -->
+
+<!-- View Cart Box Start -->
+<?php
+if(isset($_SESSION["cart_products"]) && count($_SESSION["cart_products"])>0)
+{
+	echo '<div class="cart-view-table-front" id="view-cart">';
+	echo '<h4>Shopping Cart</h4>';
+	echo '<form method="post" action="cart_update.php">';
+	echo '<table width="100%"  cellpadding="6" cellspacing="0">';
+	echo '<tbody>';
+
+	$total =0;
+	$b = 0;
+	foreach ($_SESSION["cart_products"] as $cart_itm)
+	{
+		$name = $cart_itm["name"];
+		$product_qty = $cart_itm["product_qty"];
+		$price = $cart_itm["price"];
+		$product_code = $cart_itm["product_code"];
+		$bg_color = ($b++%2==1) ? 'odd' : 'even'; //zebra stripe
+		echo '<tr class="'.$bg_color.'">';
+		echo '<td>Qty <input type="text" size="2" maxlength="2" name="product_qty['.$product_code.']" value="'.$product_qty.'" /></td>';
+		echo '<td>'.$name.'</td>';
+		echo '<td><input type="checkbox" name="remove_code[]" value="'.$product_code.'" /> Remove</td>';
+		echo '</tr>';
+		$subtotal = ($price * $product_qty);
+		$total = ($total + $subtotal);
+	}
+	echo '<td colspan="4">';
+	echo '<button type="submit">Update</button><a href="view_cart.php" class="button">Checkout</a>';
+	echo '</td>';
+	echo '</tbody>';
+	echo '</table>';
+	
+	$current_url = urlencode($url="http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
+	echo '<input type="hidden" name="return_url" value="'.$current_url.'" />';
+	echo '</form>';
+	echo '</div>';
+
+}
+?>
+<!-- View Cart Box End -->         
+
                     <?php  
                     
                     
@@ -83,53 +158,46 @@
                     $cookie = $_COOKIE['prev_visited_set'];
                     $cookie = stripslashes($cookie);
                     $temp_set = json_decode($cookie, true);                    
-                    
+                    $count = 0;
                     if ( $temp_set != null ) {
 
                         $arrlength = count($temp_set);
-                        $count = 0;
-                        
+                        $products_item = '<ul class="products">';
                         for ( $x = $arrlength - 1; $count <= 4 && $x >= 0; $x-- ) {
-                            $query = "SELECT * FROM product WHERE id = ". (int)$temp_set[$x];
-                            $result = mysqliConnect($query);
-                            if ( $count % 3 == 0 ) {
-                                print( "<div class=\"card-deck\"> " );
+                            $count = $count + 1;
+                            if ($count > 5) {
+                              break;
                             }
+                            $results = $mysqli->query("SELECT * FROM product WHERE id = ". (int)$temp_set[$x]);
+                            $obj = $results->fetch_object();
                             
-                            if($result) {
-                               // die( mysql_error() );
-                            }
-                            
-                            if(mysqli_num_rows($result) > 0)  
-                            {  
-                                 while($row = mysqli_fetch_array($result))  
-                                 {  
+$rating = number_format($obj->rating_ave, 1, '.', '');
+$products_item .= <<<EOT
+	<li class="product">
+	<form method="post" action="product_detail.php">
+	<input type="hidden" name="HIDDEN_ID" value="{$obj->id}" />
+	<div class="product-thumb"><input type="image" src="images/{$obj->image}" height="100%" width="100%"></div>
+	</form>
+	<div class="card-block">
+		<form id='product_detail' method="post" action="product_detail.php">
+		<input type="hidden" name="HIDDEN_ID" value="{$obj->id}" />
+	  <input type="submit" style="border: none; background: none; font-size:20px; padding: 0; margin-bottom: 5px;" value="{$obj->name}" /><p>Rating: {$rating}</p> <h5 style="color:rgb(255,102,0)">$ {$obj->price}</h5>
+	  </form>
   
-                            ?>
-                            
-                            <div class="card" style="max-width:30%">  
-                                 <form method="post" action="product_detail.php">
-                                  <input type="image" class="card-img-top img-fluid" src="<?php echo $config["paths"]["img"]."product/".$row["image"]; ?>" border="0" alt="Submit" />
-                                  <div class="card-block">
-                                      <h5 class="card-title"><?php echo $row["name"]; ?></h5> <h5 style="color:rgb(255,102,0)"><?php echo "$"; echo $row["price"]; ?></h5>
-                                      <input type="hidden" name="HIDDEN_NAME" value="<?php echo $row["name"]; ?>" />  
-                                      <input type="hidden" name="HIDDEN_ID" value="<?php echo $row["id"]; ?>" />  
-                                      <input type="submit" name="MORE" style="margin-top:5px;" class="btn btn-success" value="More Information" /> 
-                                  </div>  
-            
-                                 </form>  
-                            </div>  
-                            <?php  
+	  <form method="post" action="cart_update.php">
+	  <input type="hidden" name="product_code" value="{$obj->id}" />
+	  <input type="hidden" name="type" value="add" />
+	  <input type="hidden" name="product_qty" value="1" />
+	  <input type="hidden" name="return_url" value="{$current_url}" />
+	  <input type="submit" name="ADD" style="margin:5px 0px;" class="btn btn-success" value="Add To Cart" />
+	  </form>
+	</div>
 
-                                 }  
-                            }
-                            
-                              if ( $count % 3 == 2 ) {
-                                print( "</div><br> " );
-                              } 
-                              $count++;
-                            
-                        }
+	</li>
+EOT;
+          }
+          $products_item .= '</ul>';
+          echo $products_item;
                     }
                     ?>
               </div>
@@ -141,7 +209,7 @@
 
         <footer id="footer-main">
             <div class="container">
-                <p>Copyright &copy; 2017 Shuzhong Chen</p>
+                <p style="text-align: center;">Copyright &copy; 2017 Shuzhong Chen</p>
             </div>
         </footer>
         

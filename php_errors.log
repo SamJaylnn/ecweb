@@ -54,3 +54,1711 @@
 [04-May-2017 02:09:42 UTC] PHP Stack trace:
 [04-May-2017 02:09:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/secure/results.php:0
 [04-May-2017 02:09:42 UTC] PHP   2. fopen() /home/ubuntu/workspace/secure/results.php:80
+[06-May-2017 01:41:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/product_test/index.php on line 70
+[06-May-2017 01:41:59 UTC] PHP Stack trace:
+[06-May-2017 01:41:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/product_test/index.php:0
+[06-May-2017 01:41:59 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/product_test/index.php:70
+[06-May-2017 01:47:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/product_test/index.php on line 114
+[06-May-2017 05:17:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/product/product_fivem.php on line 244
+[06-May-2017 05:21:47 UTC] PHP Fatal error:  Call to undefined function mysqliConnect() in /home/ubuntu/workspace/product/product_fivep.php on line 162
+[06-May-2017 05:21:47 UTC] PHP Stack trace:
+[06-May-2017 05:21:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_fivep.php:0
+[06-May-2017 05:38:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 123
+[06-May-2017 05:38:28 UTC] PHP Stack trace:
+[06-May-2017 05:38:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[06-May-2017 05:38:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/product/product_detail.php:123
+[06-May-2017 05:49:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/product/product_detail.php:137) in /home/ubuntu/workspace/product/product_detail.php on line 174
+[06-May-2017 05:49:05 UTC] PHP Stack trace:
+[06-May-2017 05:49:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[06-May-2017 05:49:05 UTC] PHP   2. setcookie() /home/ubuntu/workspace/product/product_detail.php:174
+[06-May-2017 05:49:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/product/product_detail.php:137) in /home/ubuntu/workspace/product/product_detail.php on line 195
+[06-May-2017 05:49:05 UTC] PHP Stack trace:
+[06-May-2017 05:49:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[06-May-2017 05:49:05 UTC] PHP   2. setcookie() /home/ubuntu/workspace/product/product_detail.php:195
+[06-May-2017 05:49:05 UTC] PHP Fatal error:  Call to undefined function mysqliConnect() in /home/ubuntu/workspace/product/product_detail.php on line 203
+[06-May-2017 05:49:05 UTC] PHP Stack trace:
+[06-May-2017 05:49:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[06-May-2017 05:49:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/product/product_detail.php:137) in /home/ubuntu/workspace/product/product_detail.php on line 174
+[06-May-2017 05:49:10 UTC] PHP Stack trace:
+[06-May-2017 05:49:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[06-May-2017 05:49:10 UTC] PHP   2. setcookie() /home/ubuntu/workspace/product/product_detail.php:174
+[06-May-2017 05:49:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/product/product_detail.php:137) in /home/ubuntu/workspace/product/product_detail.php on line 195
+[06-May-2017 05:49:10 UTC] PHP Stack trace:
+[06-May-2017 05:49:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[06-May-2017 05:49:10 UTC] PHP   2. setcookie() /home/ubuntu/workspace/product/product_detail.php:195
+[06-May-2017 05:49:10 UTC] PHP Fatal error:  Call to undefined function mysqliConnect() in /home/ubuntu/workspace/product/product_detail.php on line 203
+[06-May-2017 05:49:10 UTC] PHP Stack trace:
+[06-May-2017 05:49:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[06-May-2017 05:50:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/product/product_detail.php:125) in /home/ubuntu/workspace/product/product_detail.php on line 174
+[06-May-2017 05:50:25 UTC] PHP Stack trace:
+[06-May-2017 05:50:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[06-May-2017 05:50:25 UTC] PHP   2. setcookie() /home/ubuntu/workspace/product/product_detail.php:174
+[06-May-2017 05:50:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/product/product_detail.php:125) in /home/ubuntu/workspace/product/product_detail.php on line 195
+[06-May-2017 05:50:25 UTC] PHP Stack trace:
+[06-May-2017 05:50:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[06-May-2017 05:50:25 UTC] PHP   2. setcookie() /home/ubuntu/workspace/product/product_detail.php:195
+[06-May-2017 05:50:25 UTC] PHP Fatal error:  Call to undefined function mysqliConnect() in /home/ubuntu/workspace/product/product_detail.php on line 203
+[06-May-2017 05:50:25 UTC] PHP Stack trace:
+[06-May-2017 05:50:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[06-May-2017 05:51:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/product/product_detail.php:127) in /home/ubuntu/workspace/product/product_detail.php on line 176
+[06-May-2017 05:51:52 UTC] PHP Stack trace:
+[06-May-2017 05:51:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[06-May-2017 05:51:52 UTC] PHP   2. setcookie() /home/ubuntu/workspace/product/product_detail.php:176
+[06-May-2017 05:51:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/product/product_detail.php:127) in /home/ubuntu/workspace/product/product_detail.php on line 197
+[06-May-2017 05:51:52 UTC] PHP Stack trace:
+[06-May-2017 05:51:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[06-May-2017 05:51:52 UTC] PHP   2. setcookie() /home/ubuntu/workspace/product/product_detail.php:197
+[06-May-2017 05:52:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/product/product_detail.php:128) in /home/ubuntu/workspace/product/product_detail.php on line 177
+[06-May-2017 05:52:36 UTC] PHP Stack trace:
+[06-May-2017 05:52:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[06-May-2017 05:52:36 UTC] PHP   2. setcookie() /home/ubuntu/workspace/product/product_detail.php:177
+[06-May-2017 05:52:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/product/product_detail.php:128) in /home/ubuntu/workspace/product/product_detail.php on line 198
+[06-May-2017 05:52:36 UTC] PHP Stack trace:
+[06-May-2017 05:52:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[06-May-2017 05:52:36 UTC] PHP   2. setcookie() /home/ubuntu/workspace/product/product_detail.php:198
+[06-May-2017 05:57:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/product/product_detail.php:128) in /home/ubuntu/workspace/product/product_detail.php on line 177
+[06-May-2017 05:57:31 UTC] PHP Stack trace:
+[06-May-2017 05:57:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[06-May-2017 05:57:31 UTC] PHP   2. setcookie() /home/ubuntu/workspace/product/product_detail.php:177
+[06-May-2017 05:57:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/product/product_detail.php:128) in /home/ubuntu/workspace/product/product_detail.php on line 198
+[06-May-2017 05:57:31 UTC] PHP Stack trace:
+[06-May-2017 05:57:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[06-May-2017 05:57:31 UTC] PHP   2. setcookie() /home/ubuntu/workspace/product/product_detail.php:198
+[06-May-2017 06:25:24 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 209
+[06-May-2017 06:25:24 UTC] PHP Stack trace:
+[06-May-2017 06:25:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[06-May-2017 06:25:24 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/product/product_detail.php:209
+[06-May-2017 06:25:50 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 209
+[06-May-2017 06:25:50 UTC] PHP Stack trace:
+[06-May-2017 06:25:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[06-May-2017 06:25:50 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/product/product_detail.php:209
+[06-May-2017 06:34:27 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 209
+[06-May-2017 06:34:27 UTC] PHP Stack trace:
+[06-May-2017 06:34:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[06-May-2017 06:34:27 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/product/product_detail.php:209
+[06-May-2017 06:38:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 209
+[06-May-2017 06:38:04 UTC] PHP Stack trace:
+[06-May-2017 06:38:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[06-May-2017 06:38:04 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/product/product_detail.php:209
+[06-May-2017 06:42:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 211
+[06-May-2017 06:42:25 UTC] PHP Stack trace:
+[06-May-2017 06:42:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[06-May-2017 06:42:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/product/product_detail.php:211
+[06-May-2017 06:44:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 211
+[06-May-2017 06:44:59 UTC] PHP Stack trace:
+[06-May-2017 06:44:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[06-May-2017 06:44:59 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/product/product_detail.php:211
+[06-May-2017 06:48:07 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 211
+[06-May-2017 06:48:07 UTC] PHP Stack trace:
+[06-May-2017 06:48:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[06-May-2017 06:48:07 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/product/product_detail.php:211
+[06-May-2017 06:48:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 211
+[06-May-2017 06:48:30 UTC] PHP Stack trace:
+[06-May-2017 06:48:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[06-May-2017 06:48:30 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/product/product_detail.php:211
+[06-May-2017 06:48:38 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 211
+[06-May-2017 06:48:38 UTC] PHP Stack trace:
+[06-May-2017 06:48:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[06-May-2017 06:48:38 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/product/product_detail.php:211
+[06-May-2017 06:53:22 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 211
+[06-May-2017 06:53:22 UTC] PHP Stack trace:
+[06-May-2017 06:53:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[06-May-2017 06:53:22 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/product/product_detail.php:211
+[07-May-2017 00:32:23 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/product/print_order.php:135) in /home/ubuntu/workspace/product/print_order.php on line 136
+[07-May-2017 00:32:23 UTC] PHP Stack trace:
+[07-May-2017 00:32:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/print_order.php:0
+[07-May-2017 00:32:23 UTC] PHP   2. session_start() /home/ubuntu/workspace/product/print_order.php:136
+[07-May-2017 00:32:51 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/product/print_order.php:135) in /home/ubuntu/workspace/product/print_order.php on line 136
+[07-May-2017 00:32:51 UTC] PHP Stack trace:
+[07-May-2017 00:32:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/print_order.php:0
+[07-May-2017 00:32:51 UTC] PHP   2. session_start() /home/ubuntu/workspace/product/print_order.php:136
+[07-May-2017 00:34:04 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/product/print_order.php:135) in /home/ubuntu/workspace/product/print_order.php on line 137
+[07-May-2017 00:34:04 UTC] PHP Stack trace:
+[07-May-2017 00:34:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/print_order.php:0
+[07-May-2017 00:34:04 UTC] PHP   2. session_start() /home/ubuntu/workspace/product/print_order.php:137
+[07-May-2017 00:34:27 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/product/print_order.php:135) in /home/ubuntu/workspace/product/print_order.php on line 137
+[07-May-2017 00:34:27 UTC] PHP Stack trace:
+[07-May-2017 00:34:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/print_order.php:0
+[07-May-2017 00:34:27 UTC] PHP   2. session_start() /home/ubuntu/workspace/product/print_order.php:137
+[07-May-2017 22:05:59 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/rating/index.php on line 67
+[07-May-2017 22:05:59 UTC] PHP Stack trace:
+[07-May-2017 22:05:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/rating/index.php:0
+[07-May-2017 22:05:59 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/rating/index.php:67
+[07-May-2017 22:07:33 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/rating/index.php on line 67
+[07-May-2017 22:07:33 UTC] PHP Stack trace:
+[07-May-2017 22:07:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/rating/index.php:0
+[07-May-2017 22:07:33 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/rating/index.php:67
+[07-May-2017 22:27:52 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/product/product_detail.php on line 280
+[07-May-2017 22:27:52 UTC] PHP Stack trace:
+[07-May-2017 22:27:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:27:52 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:280
+[07-May-2017 22:27:52 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/product/product_detail.php on line 280
+[07-May-2017 22:27:52 UTC] PHP Stack trace:
+[07-May-2017 22:27:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:27:52 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:280
+[07-May-2017 22:27:52 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 281
+[07-May-2017 22:27:52 UTC] PHP Stack trace:
+[07-May-2017 22:27:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:27:52 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/product/product_detail.php:281
+[07-May-2017 22:29:56 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/product/product_detail.php on line 280
+[07-May-2017 22:29:56 UTC] PHP Stack trace:
+[07-May-2017 22:29:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:29:56 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:280
+[07-May-2017 22:29:56 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/product/product_detail.php on line 280
+[07-May-2017 22:29:56 UTC] PHP Stack trace:
+[07-May-2017 22:29:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:29:56 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:280
+[07-May-2017 22:29:56 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 281
+[07-May-2017 22:29:56 UTC] PHP Stack trace:
+[07-May-2017 22:29:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:29:56 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/product/product_detail.php:281
+[07-May-2017 22:30:01 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/product/product_detail.php on line 280
+[07-May-2017 22:30:01 UTC] PHP Stack trace:
+[07-May-2017 22:30:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:30:01 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:280
+[07-May-2017 22:30:01 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/product/product_detail.php on line 280
+[07-May-2017 22:30:01 UTC] PHP Stack trace:
+[07-May-2017 22:30:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:30:01 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:280
+[07-May-2017 22:30:01 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 281
+[07-May-2017 22:30:01 UTC] PHP Stack trace:
+[07-May-2017 22:30:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:30:01 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/product/product_detail.php:281
+[07-May-2017 22:30:44 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/product/product_detail.php on line 280
+[07-May-2017 22:30:44 UTC] PHP Stack trace:
+[07-May-2017 22:30:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:30:44 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:280
+[07-May-2017 22:30:44 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/product/product_detail.php on line 280
+[07-May-2017 22:30:44 UTC] PHP Stack trace:
+[07-May-2017 22:30:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:30:44 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:280
+[07-May-2017 22:30:44 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 281
+[07-May-2017 22:30:44 UTC] PHP Stack trace:
+[07-May-2017 22:30:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:30:44 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/product/product_detail.php:281
+[07-May-2017 22:30:51 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/rating/index.php on line 67
+[07-May-2017 22:30:51 UTC] PHP Stack trace:
+[07-May-2017 22:30:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/rating/index.php:0
+[07-May-2017 22:30:51 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/rating/index.php:67
+[07-May-2017 22:31:23 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/product/product_detail.php on line 280
+[07-May-2017 22:31:23 UTC] PHP Stack trace:
+[07-May-2017 22:31:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:31:23 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:280
+[07-May-2017 22:31:23 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/product/product_detail.php on line 280
+[07-May-2017 22:31:23 UTC] PHP Stack trace:
+[07-May-2017 22:31:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:31:23 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:280
+[07-May-2017 22:31:23 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 281
+[07-May-2017 22:31:23 UTC] PHP Stack trace:
+[07-May-2017 22:31:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:31:23 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/product/product_detail.php:281
+[07-May-2017 22:32:20 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/product/product_detail.php on line 284
+[07-May-2017 22:32:20 UTC] PHP Stack trace:
+[07-May-2017 22:32:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:32:20 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:284
+[07-May-2017 22:32:20 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/product/product_detail.php on line 284
+[07-May-2017 22:32:20 UTC] PHP Stack trace:
+[07-May-2017 22:32:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:32:20 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:284
+[07-May-2017 22:32:20 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 285
+[07-May-2017 22:32:20 UTC] PHP Stack trace:
+[07-May-2017 22:32:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:32:20 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/product/product_detail.php:285
+[07-May-2017 22:32:28 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/product/product_detail.php on line 284
+[07-May-2017 22:32:28 UTC] PHP Stack trace:
+[07-May-2017 22:32:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:32:28 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:284
+[07-May-2017 22:32:28 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/product/product_detail.php on line 284
+[07-May-2017 22:32:28 UTC] PHP Stack trace:
+[07-May-2017 22:32:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:32:28 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:284
+[07-May-2017 22:32:28 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 285
+[07-May-2017 22:32:28 UTC] PHP Stack trace:
+[07-May-2017 22:32:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:32:28 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/product/product_detail.php:285
+[07-May-2017 22:33:32 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/product/product_detail.php on line 286
+[07-May-2017 22:33:32 UTC] PHP Stack trace:
+[07-May-2017 22:33:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:33:32 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:286
+[07-May-2017 22:33:32 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/product/product_detail.php on line 286
+[07-May-2017 22:33:32 UTC] PHP Stack trace:
+[07-May-2017 22:33:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:33:32 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:286
+[07-May-2017 22:33:32 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 287
+[07-May-2017 22:33:32 UTC] PHP Stack trace:
+[07-May-2017 22:33:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:33:32 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/product/product_detail.php:287
+[07-May-2017 22:33:49 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/product/product_detail.php on line 286
+[07-May-2017 22:33:49 UTC] PHP Stack trace:
+[07-May-2017 22:33:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:33:49 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:286
+[07-May-2017 22:33:49 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/product/product_detail.php on line 286
+[07-May-2017 22:33:49 UTC] PHP Stack trace:
+[07-May-2017 22:33:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:33:49 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:286
+[07-May-2017 22:33:49 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 287
+[07-May-2017 22:33:49 UTC] PHP Stack trace:
+[07-May-2017 22:33:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:33:49 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/product/product_detail.php:287
+[07-May-2017 22:35:06 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/product/product_detail.php on line 302
+[07-May-2017 22:35:06 UTC] PHP Stack trace:
+[07-May-2017 22:35:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:35:06 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:302
+[07-May-2017 22:35:06 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/product/product_detail.php on line 302
+[07-May-2017 22:35:06 UTC] PHP Stack trace:
+[07-May-2017 22:35:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:35:06 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:302
+[07-May-2017 22:35:06 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 303
+[07-May-2017 22:35:06 UTC] PHP Stack trace:
+[07-May-2017 22:35:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:35:06 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/product/product_detail.php:303
+[07-May-2017 22:38:14 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/product/product_detail.php on line 302
+[07-May-2017 22:38:14 UTC] PHP Stack trace:
+[07-May-2017 22:38:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:38:14 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:302
+[07-May-2017 22:38:14 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/product/product_detail.php on line 302
+[07-May-2017 22:38:14 UTC] PHP Stack trace:
+[07-May-2017 22:38:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:38:14 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:302
+[07-May-2017 22:38:14 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 303
+[07-May-2017 22:38:14 UTC] PHP Stack trace:
+[07-May-2017 22:38:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:38:14 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/product/product_detail.php:303
+[07-May-2017 22:40:13 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/product/product_detail.php on line 277
+[07-May-2017 22:40:13 UTC] PHP Stack trace:
+[07-May-2017 22:40:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:40:13 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:277
+[07-May-2017 22:40:13 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/product/product_detail.php on line 277
+[07-May-2017 22:40:13 UTC] PHP Stack trace:
+[07-May-2017 22:40:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:40:13 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:277
+[07-May-2017 22:40:13 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 278
+[07-May-2017 22:40:13 UTC] PHP Stack trace:
+[07-May-2017 22:40:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:40:13 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/product/product_detail.php:278
+[07-May-2017 22:43:03 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/product/product_detail.php on line 257
+[07-May-2017 22:43:03 UTC] PHP Stack trace:
+[07-May-2017 22:43:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:43:03 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:257
+[07-May-2017 22:43:03 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/product/product_detail.php on line 257
+[07-May-2017 22:43:03 UTC] PHP Stack trace:
+[07-May-2017 22:43:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:43:03 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:257
+[07-May-2017 22:43:03 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 258
+[07-May-2017 22:43:03 UTC] PHP Stack trace:
+[07-May-2017 22:43:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:43:03 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/product/product_detail.php:258
+[07-May-2017 22:44:08 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/product/product_detail.php on line 257
+[07-May-2017 22:44:08 UTC] PHP Stack trace:
+[07-May-2017 22:44:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:44:08 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:257
+[07-May-2017 22:44:08 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/product/product_detail.php on line 257
+[07-May-2017 22:44:08 UTC] PHP Stack trace:
+[07-May-2017 22:44:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:44:08 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:257
+[07-May-2017 22:44:08 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 258
+[07-May-2017 22:44:08 UTC] PHP Stack trace:
+[07-May-2017 22:44:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:44:08 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/product/product_detail.php:258
+[07-May-2017 22:44:11 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/product/product_detail.php on line 257
+[07-May-2017 22:44:11 UTC] PHP Stack trace:
+[07-May-2017 22:44:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:44:11 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:257
+[07-May-2017 22:44:11 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/product/product_detail.php on line 257
+[07-May-2017 22:44:11 UTC] PHP Stack trace:
+[07-May-2017 22:44:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:44:11 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:257
+[07-May-2017 22:44:11 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 258
+[07-May-2017 22:44:11 UTC] PHP Stack trace:
+[07-May-2017 22:44:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:44:11 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/product/product_detail.php:258
+[07-May-2017 22:44:43 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/product/product_detail.php on line 257
+[07-May-2017 22:44:43 UTC] PHP Stack trace:
+[07-May-2017 22:44:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:44:43 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:257
+[07-May-2017 22:44:43 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/product/product_detail.php on line 257
+[07-May-2017 22:44:43 UTC] PHP Stack trace:
+[07-May-2017 22:44:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:44:43 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:257
+[07-May-2017 22:44:43 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 258
+[07-May-2017 22:44:43 UTC] PHP Stack trace:
+[07-May-2017 22:44:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:44:43 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/product/product_detail.php:258
+[07-May-2017 22:45:20 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/product/product_detail.php on line 257
+[07-May-2017 22:45:20 UTC] PHP Stack trace:
+[07-May-2017 22:45:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:45:20 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:257
+[07-May-2017 22:45:20 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/product/product_detail.php on line 257
+[07-May-2017 22:45:20 UTC] PHP Stack trace:
+[07-May-2017 22:45:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:45:20 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:257
+[07-May-2017 22:45:20 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 258
+[07-May-2017 22:45:20 UTC] PHP Stack trace:
+[07-May-2017 22:45:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:45:20 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/product/product_detail.php:258
+[07-May-2017 22:45:33 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/product/product_detail.php on line 257
+[07-May-2017 22:45:33 UTC] PHP Stack trace:
+[07-May-2017 22:45:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:45:33 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:257
+[07-May-2017 22:45:33 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/product/product_detail.php on line 257
+[07-May-2017 22:45:33 UTC] PHP Stack trace:
+[07-May-2017 22:45:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:45:33 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:257
+[07-May-2017 22:45:33 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 258
+[07-May-2017 22:45:33 UTC] PHP Stack trace:
+[07-May-2017 22:45:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:45:33 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/product/product_detail.php:258
+[07-May-2017 22:46:26 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/product/product_detail.php on line 257
+[07-May-2017 22:46:26 UTC] PHP Stack trace:
+[07-May-2017 22:46:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:46:26 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:257
+[07-May-2017 22:46:26 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/product/product_detail.php on line 257
+[07-May-2017 22:46:26 UTC] PHP Stack trace:
+[07-May-2017 22:46:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:46:26 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:257
+[07-May-2017 22:46:26 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 258
+[07-May-2017 22:46:26 UTC] PHP Stack trace:
+[07-May-2017 22:46:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:46:26 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/product/product_detail.php:258
+[07-May-2017 22:46:49 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/product/product_detail.php on line 257
+[07-May-2017 22:46:49 UTC] PHP Stack trace:
+[07-May-2017 22:46:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:46:49 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:257
+[07-May-2017 22:46:49 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/product/product_detail.php on line 257
+[07-May-2017 22:46:49 UTC] PHP Stack trace:
+[07-May-2017 22:46:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:46:49 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:257
+[07-May-2017 22:46:49 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 258
+[07-May-2017 22:46:49 UTC] PHP Stack trace:
+[07-May-2017 22:46:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:46:49 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/product/product_detail.php:258
+[07-May-2017 22:47:41 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/product/product_detail.php on line 257
+[07-May-2017 22:47:41 UTC] PHP Stack trace:
+[07-May-2017 22:47:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:47:41 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:257
+[07-May-2017 22:47:41 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/product/product_detail.php on line 257
+[07-May-2017 22:47:41 UTC] PHP Stack trace:
+[07-May-2017 22:47:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:47:41 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:257
+[07-May-2017 22:47:41 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 258
+[07-May-2017 22:47:41 UTC] PHP Stack trace:
+[07-May-2017 22:47:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:47:41 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/product/product_detail.php:258
+[07-May-2017 22:48:23 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/product/product_detail.php on line 257
+[07-May-2017 22:48:23 UTC] PHP Stack trace:
+[07-May-2017 22:48:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:48:23 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:257
+[07-May-2017 22:48:23 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/product/product_detail.php on line 257
+[07-May-2017 22:48:23 UTC] PHP Stack trace:
+[07-May-2017 22:48:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:48:23 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:257
+[07-May-2017 22:48:23 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 258
+[07-May-2017 22:48:23 UTC] PHP Stack trace:
+[07-May-2017 22:48:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:48:23 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/product/product_detail.php:258
+[07-May-2017 22:48:35 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/product/product_detail.php on line 257
+[07-May-2017 22:48:35 UTC] PHP Stack trace:
+[07-May-2017 22:48:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:48:35 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:257
+[07-May-2017 22:48:35 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/product/product_detail.php on line 257
+[07-May-2017 22:48:35 UTC] PHP Stack trace:
+[07-May-2017 22:48:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:48:35 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:257
+[07-May-2017 22:48:35 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 258
+[07-May-2017 22:48:35 UTC] PHP Stack trace:
+[07-May-2017 22:48:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:48:35 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/product/product_detail.php:258
+[07-May-2017 22:49:10 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/product/product_detail.php on line 257
+[07-May-2017 22:49:10 UTC] PHP Stack trace:
+[07-May-2017 22:49:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:49:10 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:257
+[07-May-2017 22:49:10 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/product/product_detail.php on line 257
+[07-May-2017 22:49:10 UTC] PHP Stack trace:
+[07-May-2017 22:49:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:49:10 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:257
+[07-May-2017 22:49:10 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 258
+[07-May-2017 22:49:10 UTC] PHP Stack trace:
+[07-May-2017 22:49:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:49:10 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/product/product_detail.php:258
+[07-May-2017 22:50:28 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/product/product_detail.php on line 257
+[07-May-2017 22:50:28 UTC] PHP Stack trace:
+[07-May-2017 22:50:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:50:28 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:257
+[07-May-2017 22:50:28 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/product/product_detail.php on line 257
+[07-May-2017 22:50:28 UTC] PHP Stack trace:
+[07-May-2017 22:50:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:50:28 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/product/product_detail.php:257
+[07-May-2017 22:50:28 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 258
+[07-May-2017 22:50:28 UTC] PHP Stack trace:
+[07-May-2017 22:50:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[07-May-2017 22:50:28 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/product/product_detail.php:258
+[07-May-2017 23:16:28 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/rating/ajax.php on line 11
+[07-May-2017 23:16:28 UTC] PHP Stack trace:
+[07-May-2017 23:16:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/rating/ajax.php:0
+[07-May-2017 23:16:28 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/rating/ajax.php:11
+[07-May-2017 23:16:29 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/rating/ajax.php on line 11
+[07-May-2017 23:16:29 UTC] PHP Stack trace:
+[07-May-2017 23:16:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/rating/ajax.php:0
+[07-May-2017 23:16:29 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/rating/ajax.php:11
+[07-May-2017 23:16:30 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/rating/ajax.php on line 11
+[07-May-2017 23:16:30 UTC] PHP Stack trace:
+[07-May-2017 23:16:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/rating/ajax.php:0
+[07-May-2017 23:16:30 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/rating/ajax.php:11
+[07-May-2017 23:16:34 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/rating/ajax.php on line 11
+[07-May-2017 23:16:34 UTC] PHP Stack trace:
+[07-May-2017 23:16:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/rating/ajax.php:0
+[07-May-2017 23:16:34 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/rating/ajax.php:11
+[07-May-2017 23:29:22 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/rating/ajax.php on line 11
+[07-May-2017 23:29:22 UTC] PHP Stack trace:
+[07-May-2017 23:29:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/rating/ajax.php:0
+[07-May-2017 23:29:22 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/rating/ajax.php:11
+[07-May-2017 23:29:24 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/rating/ajax.php on line 11
+[07-May-2017 23:29:24 UTC] PHP Stack trace:
+[07-May-2017 23:29:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/rating/ajax.php:0
+[07-May-2017 23:29:24 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/rating/ajax.php:11
+[07-May-2017 23:36:30 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/ubuntu/workspace/product/product_detail.php on line 259
+[07-May-2017 23:37:02 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/rating/ajax.php on line 11
+[07-May-2017 23:37:02 UTC] PHP Stack trace:
+[07-May-2017 23:37:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/rating/ajax.php:0
+[07-May-2017 23:37:02 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/rating/ajax.php:11
+[07-May-2017 23:37:08 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/rating/ajax.php on line 11
+[07-May-2017 23:37:08 UTC] PHP Stack trace:
+[07-May-2017 23:37:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/rating/ajax.php:0
+[07-May-2017 23:37:08 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/rating/ajax.php:11
+[07-May-2017 23:37:10 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/rating/ajax.php on line 11
+[07-May-2017 23:37:10 UTC] PHP Stack trace:
+[07-May-2017 23:37:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/rating/ajax.php:0
+[07-May-2017 23:37:10 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/rating/ajax.php:11
+[07-May-2017 23:37:10 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/rating/ajax.php on line 11
+[07-May-2017 23:37:10 UTC] PHP Stack trace:
+[07-May-2017 23:37:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/rating/ajax.php:0
+[07-May-2017 23:37:10 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/rating/ajax.php:11
+[07-May-2017 23:37:11 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/rating/ajax.php on line 11
+[07-May-2017 23:37:11 UTC] PHP Stack trace:
+[07-May-2017 23:37:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/rating/ajax.php:0
+[07-May-2017 23:37:11 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/rating/ajax.php:11
+[07-May-2017 23:39:01 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/rating/ajax.php on line 11
+[07-May-2017 23:39:01 UTC] PHP Stack trace:
+[07-May-2017 23:39:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/rating/ajax.php:0
+[07-May-2017 23:39:01 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/rating/ajax.php:11
+[07-May-2017 23:40:24 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/rating/ajax.php on line 11
+[07-May-2017 23:40:24 UTC] PHP Stack trace:
+[07-May-2017 23:40:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/rating/ajax.php:0
+[07-May-2017 23:40:24 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/rating/ajax.php:11
+[07-May-2017 23:40:28 UTC] PHP Parse error:  syntax error, unexpected '$rst' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 17
+[07-May-2017 23:40:32 UTC] PHP Parse error:  syntax error, unexpected '$rst' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 17
+[07-May-2017 23:40:32 UTC] PHP Parse error:  syntax error, unexpected '$rst' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 17
+[07-May-2017 23:40:32 UTC] PHP Parse error:  syntax error, unexpected '$rst' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 17
+[07-May-2017 23:40:32 UTC] PHP Parse error:  syntax error, unexpected '$rst' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 17
+[07-May-2017 23:40:54 UTC] PHP Parse error:  syntax error, unexpected '$rst' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 17
+[07-May-2017 23:42:16 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 20
+[07-May-2017 23:42:19 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 20
+[07-May-2017 23:42:19 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 20
+[07-May-2017 23:42:19 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 20
+[07-May-2017 23:42:20 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 20
+[07-May-2017 23:56:50 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 20
+[07-May-2017 23:56:52 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 20
+[07-May-2017 23:56:52 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 20
+[07-May-2017 23:56:52 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 20
+[07-May-2017 23:56:52 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 20
+[07-May-2017 23:56:53 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 20
+[07-May-2017 23:56:57 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 20
+[07-May-2017 23:56:59 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 20
+[07-May-2017 23:58:11 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 20
+[07-May-2017 23:58:18 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 20
+[07-May-2017 23:58:21 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 20
+[07-May-2017 23:58:25 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 20
+[08-May-2017 00:01:04 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 20
+[08-May-2017 00:01:09 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 20
+[08-May-2017 00:04:57 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 20
+[08-May-2017 00:05:01 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 20
+[08-May-2017 00:06:45 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 20
+[08-May-2017 00:06:52 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 20
+[08-May-2017 00:07:37 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ubuntu/workspace/product/ajax.php on line 21
+[08-May-2017 05:11:07 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/login/verify.php on line 38
+[08-May-2017 05:15:52 UTC] PHP Parse error:  syntax error, unexpected 'print' (T_PRINT) in /home/ubuntu/workspace/login/verify.php on line 40
+[08-May-2017 18:06:20 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/ubuntu/workspace/product/listen.php on line 14
+[08-May-2017 18:07:01 UTC] PHP Parse error:  syntax error, unexpected '+', expecting ']' in /home/ubuntu/workspace/product/listen.php on line 10
+[08-May-2017 18:42:40 UTC] PHP Parse error:  syntax error, unexpected '.', expecting '}' in /home/ubuntu/workspace/product/index.php on line 207
+[08-May-2017 18:43:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/product/index.php on line 290
+[08-May-2017 18:44:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/product/index.php on line 246
+[08-May-2017 18:44:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/product/index.php on line 202
+[08-May-2017 18:44:44 UTC] PHP Stack trace:
+[08-May-2017 18:44:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/index.php:0
+[08-May-2017 18:48:07 UTC] PHP Parse error:  syntax error, unexpected '.', expecting '}' in /home/ubuntu/workspace/product/index.php on line 209
+[08-May-2017 18:50:10 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 210
+[08-May-2017 18:50:10 UTC] PHP Stack trace:
+[08-May-2017 18:50:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[08-May-2017 18:50:10 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/product/product_detail.php:210
+[08-May-2017 19:19:02 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 210
+[08-May-2017 19:19:02 UTC] PHP Stack trace:
+[08-May-2017 19:19:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[08-May-2017 19:19:02 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/product/product_detail.php:210
+[08-May-2017 19:20:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 210
+[08-May-2017 19:20:25 UTC] PHP Stack trace:
+[08-May-2017 19:20:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[08-May-2017 19:20:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/product/product_detail.php:210
+[08-May-2017 19:44:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 210
+[08-May-2017 19:44:23 UTC] PHP Stack trace:
+[08-May-2017 19:44:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[08-May-2017 19:44:23 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/product/product_detail.php:210
+[08-May-2017 19:44:26 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 210
+[08-May-2017 19:44:26 UTC] PHP Stack trace:
+[08-May-2017 19:44:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[08-May-2017 19:44:26 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/product/product_detail.php:210
+[08-May-2017 19:44:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 210
+[08-May-2017 19:44:28 UTC] PHP Stack trace:
+[08-May-2017 19:44:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[08-May-2017 19:44:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/product/product_detail.php:210
+[08-May-2017 19:51:07 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 210
+[08-May-2017 19:51:07 UTC] PHP Stack trace:
+[08-May-2017 19:51:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[08-May-2017 19:51:07 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/product/product_detail.php:210
+[08-May-2017 19:55:57 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/rating/index.php on line 67
+[08-May-2017 19:55:57 UTC] PHP Stack trace:
+[08-May-2017 19:55:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/rating/index.php:0
+[08-May-2017 19:55:57 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/rating/index.php:67
+[08-May-2017 20:24:48 UTC] PHP Fatal error:  Cannot redeclare printUsers() (previously declared in /home/ubuntu/workspace/market/index.php:196) in /home/ubuntu/workspace/market/index.php on line 284
+[08-May-2017 21:02:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 251
+[08-May-2017 21:02:00 UTC] PHP Stack trace:
+[08-May-2017 21:02:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:05:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 251
+[08-May-2017 21:05:24 UTC] PHP Stack trace:
+[08-May-2017 21:05:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:08:45 UTC] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/market/index.php on line 242
+[08-May-2017 21:08:45 UTC] PHP Stack trace:
+[08-May-2017 21:08:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:08:45 UTC] PHP   2. curl_setopt() /home/ubuntu/workspace/market/index.php:242
+[08-May-2017 21:08:45 UTC] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/market/index.php on line 243
+[08-May-2017 21:08:45 UTC] PHP Stack trace:
+[08-May-2017 21:08:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:08:45 UTC] PHP   2. curl_setopt() /home/ubuntu/workspace/market/index.php:243
+[08-May-2017 21:08:45 UTC] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/market/index.php on line 244
+[08-May-2017 21:08:45 UTC] PHP Stack trace:
+[08-May-2017 21:08:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:08:45 UTC] PHP   2. curl_setopt() /home/ubuntu/workspace/market/index.php:244
+[08-May-2017 21:08:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 258
+[08-May-2017 21:08:45 UTC] PHP Stack trace:
+[08-May-2017 21:08:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:10:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 259
+[08-May-2017 21:10:31 UTC] PHP Stack trace:
+[08-May-2017 21:10:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:13:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 250
+[08-May-2017 21:13:19 UTC] PHP Stack trace:
+[08-May-2017 21:13:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:13:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 250
+[08-May-2017 21:13:21 UTC] PHP Stack trace:
+[08-May-2017 21:13:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:13:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 250
+[08-May-2017 21:13:23 UTC] PHP Stack trace:
+[08-May-2017 21:13:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:13:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 250
+[08-May-2017 21:13:55 UTC] PHP Stack trace:
+[08-May-2017 21:13:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:20:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 251
+[08-May-2017 21:20:10 UTC] PHP Stack trace:
+[08-May-2017 21:20:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:22:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 251
+[08-May-2017 21:22:01 UTC] PHP Stack trace:
+[08-May-2017 21:22:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:22:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 203
+[08-May-2017 21:22:18 UTC] PHP Stack trace:
+[08-May-2017 21:22:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:22:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 251
+[08-May-2017 21:22:18 UTC] PHP Stack trace:
+[08-May-2017 21:22:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:22:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 251
+[08-May-2017 21:22:30 UTC] PHP Stack trace:
+[08-May-2017 21:22:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:24:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 251
+[08-May-2017 21:24:06 UTC] PHP Stack trace:
+[08-May-2017 21:24:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:24:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 251
+[08-May-2017 21:24:41 UTC] PHP Stack trace:
+[08-May-2017 21:24:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:25:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 251
+[08-May-2017 21:25:24 UTC] PHP Stack trace:
+[08-May-2017 21:25:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:25:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 251
+[08-May-2017 21:25:27 UTC] PHP Stack trace:
+[08-May-2017 21:25:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:30:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 251
+[08-May-2017 21:30:38 UTC] PHP Stack trace:
+[08-May-2017 21:30:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:30:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 251
+[08-May-2017 21:30:49 UTC] PHP Stack trace:
+[08-May-2017 21:30:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:31:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 202
+[08-May-2017 21:31:34 UTC] PHP Stack trace:
+[08-May-2017 21:31:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:31:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 250
+[08-May-2017 21:31:35 UTC] PHP Stack trace:
+[08-May-2017 21:31:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:33:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 250
+[08-May-2017 21:33:27 UTC] PHP Stack trace:
+[08-May-2017 21:33:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:34:45 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/market/product_detail.php on line 210
+[08-May-2017 21:34:45 UTC] PHP Stack trace:
+[08-May-2017 21:34:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/product_detail.php:0
+[08-May-2017 21:34:45 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/market/product_detail.php:210
+[08-May-2017 21:35:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 250
+[08-May-2017 21:35:01 UTC] PHP Stack trace:
+[08-May-2017 21:35:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:35:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 250
+[08-May-2017 21:35:09 UTC] PHP Stack trace:
+[08-May-2017 21:35:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:35:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 250
+[08-May-2017 21:35:14 UTC] PHP Stack trace:
+[08-May-2017 21:35:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:35:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 250
+[08-May-2017 21:35:31 UTC] PHP Stack trace:
+[08-May-2017 21:35:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 21:35:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 250
+[08-May-2017 21:35:33 UTC] PHP Stack trace:
+[08-May-2017 21:35:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 23:51:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 250
+[08-May-2017 23:51:03 UTC] PHP Stack trace:
+[08-May-2017 23:51:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[08-May-2017 23:52:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 250
+[08-May-2017 23:52:53 UTC] PHP Stack trace:
+[08-May-2017 23:52:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[09-May-2017 05:05:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 200
+[09-May-2017 05:05:30 UTC] PHP Stack trace:
+[09-May-2017 05:05:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[09-May-2017 06:01:32 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/product/product_detail.php on line 213
+[09-May-2017 06:01:32 UTC] PHP Stack trace:
+[09-May-2017 06:01:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[09-May-2017 06:01:32 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/product/product_detail.php on line 214
+[09-May-2017 06:01:32 UTC] PHP Stack trace:
+[09-May-2017 06:01:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[09-May-2017 06:02:00 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/product/product_detail.php on line 213
+[09-May-2017 06:02:00 UTC] PHP Stack trace:
+[09-May-2017 06:02:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[09-May-2017 06:02:00 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/product/product_detail.php on line 214
+[09-May-2017 06:02:00 UTC] PHP Stack trace:
+[09-May-2017 06:02:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[09-May-2017 06:06:16 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/product/product_detail.php on line 213
+[09-May-2017 06:06:16 UTC] PHP Stack trace:
+[09-May-2017 06:06:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[09-May-2017 06:06:16 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/product/product_detail.php on line 214
+[09-May-2017 06:06:16 UTC] PHP Stack trace:
+[09-May-2017 06:06:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[09-May-2017 06:06:26 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/product/product_detail.php on line 213
+[09-May-2017 06:06:26 UTC] PHP Stack trace:
+[09-May-2017 06:06:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[09-May-2017 06:06:26 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/product/product_detail.php on line 214
+[09-May-2017 06:06:26 UTC] PHP Stack trace:
+[09-May-2017 06:06:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[09-May-2017 06:06:33 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/product/product_detail.php on line 213
+[09-May-2017 06:06:33 UTC] PHP Stack trace:
+[09-May-2017 06:06:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[09-May-2017 06:06:33 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/product/product_detail.php on line 214
+[09-May-2017 06:06:33 UTC] PHP Stack trace:
+[09-May-2017 06:06:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[09-May-2017 06:06:36 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/product/product_detail.php on line 213
+[09-May-2017 06:06:36 UTC] PHP Stack trace:
+[09-May-2017 06:06:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[09-May-2017 06:06:36 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/product/product_detail.php on line 214
+[09-May-2017 06:06:36 UTC] PHP Stack trace:
+[09-May-2017 06:06:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[09-May-2017 06:07:35 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/product/product_detail.php on line 213
+[09-May-2017 06:07:35 UTC] PHP Stack trace:
+[09-May-2017 06:07:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[09-May-2017 06:07:35 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/product/product_detail.php on line 214
+[09-May-2017 06:07:35 UTC] PHP Stack trace:
+[09-May-2017 06:07:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[09-May-2017 06:14:14 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/ubuntu/workspace/product/product_detail.php on line 295
+[09-May-2017 06:14:14 UTC] PHP Stack trace:
+[09-May-2017 06:14:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[09-May-2017 06:32:40 UTC] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/product/ajax.php on line 34
+[09-May-2017 06:32:40 UTC] PHP Stack trace:
+[09-May-2017 06:32:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/ajax.php:0
+[09-May-2017 06:32:40 UTC] PHP   2. date() /home/ubuntu/workspace/product/ajax.php:34
+[09-May-2017 07:03:22 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 133693615 bytes) in /home/ubuntu/workspace/product/product_detail.php on line 285
+[09-May-2017 07:03:22 UTC] PHP Stack trace:
+[09-May-2017 07:03:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[09-May-2017 20:47:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 218
+[09-May-2017 20:47:34 UTC] PHP Stack trace:
+[09-May-2017 20:47:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[09-May-2017 20:47:34 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/product/product_detail.php:218
+[09-May-2017 20:48:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 218
+[09-May-2017 20:48:00 UTC] PHP Stack trace:
+[09-May-2017 20:48:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[09-May-2017 20:48:00 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/product/product_detail.php:218
+[09-May-2017 20:49:20 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 218
+[09-May-2017 20:49:20 UTC] PHP Stack trace:
+[09-May-2017 20:49:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[09-May-2017 20:49:20 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/product/product_detail.php:218
+[09-May-2017 20:53:53 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 218
+[09-May-2017 20:53:53 UTC] PHP Stack trace:
+[09-May-2017 20:53:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[09-May-2017 20:53:53 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/product/product_detail.php:218
+[09-May-2017 20:56:22 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/product/product_detail.php on line 218
+[09-May-2017 20:56:22 UTC] PHP Stack trace:
+[09-May-2017 20:56:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/product_detail.php:0
+[09-May-2017 20:56:22 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/product/product_detail.php:218
+[09-May-2017 23:35:00 UTC] PHP Parse error:  syntax error, unexpected 'print' (T_PRINT) in /home/ubuntu/workspace/login/verify.php on line 40
+[10-May-2017 00:51:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 170
+[10-May-2017 00:51:44 UTC] PHP Stack trace:
+[10-May-2017 00:51:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[10-May-2017 00:51:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 214
+[10-May-2017 00:51:44 UTC] PHP Stack trace:
+[10-May-2017 00:51:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[10-May-2017 17:01:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/product_detail.php on line 230
+[10-May-2017 17:01:13 UTC] PHP Stack trace:
+[10-May-2017 17:01:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/product_detail.php:0
+[10-May-2017 17:02:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/product_detail.php on line 230
+[10-May-2017 17:02:00 UTC] PHP Stack trace:
+[10-May-2017 17:02:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/product_detail.php:0
+[10-May-2017 17:02:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/product_detail.php on line 230
+[10-May-2017 17:02:11 UTC] PHP Stack trace:
+[10-May-2017 17:02:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/product_detail.php:0
+[10-May-2017 17:10:59 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/market/product_detail.php on line 260
+[10-May-2017 17:10:59 UTC] PHP Stack trace:
+[10-May-2017 17:10:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/product_detail.php:0
+[10-May-2017 17:10:59 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/market/product_detail.php on line 261
+[10-May-2017 17:10:59 UTC] PHP Stack trace:
+[10-May-2017 17:10:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/product_detail.php:0
+[10-May-2017 19:46:03 UTC] PHP Warning:  include_once(fbscriptphp): failed to open stream: No such file or directory in /home/ubuntu/workspace/login/login.php on line 18
+[10-May-2017 19:46:03 UTC] PHP Stack trace:
+[10-May-2017 19:46:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[10-May-2017 19:46:03 UTC] PHP Warning:  include_once(): Failed opening 'fbscriptphp' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/login/login.php on line 18
+[10-May-2017 19:46:03 UTC] PHP Stack trace:
+[10-May-2017 19:46:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[10-May-2017 20:22:49 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/market/product_fivet.php on line 127
+[10-May-2017 20:22:49 UTC] PHP Stack trace:
+[10-May-2017 20:22:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/product_fivet.php:0
+[10-May-2017 20:23:24 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/market/product_fivet.php on line 130
+[10-May-2017 20:23:24 UTC] PHP Stack trace:
+[10-May-2017 20:23:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/product_fivet.php:0
+[10-May-2017 20:39:36 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/market/product_fivet.php on line 189
+[10-May-2017 20:39:36 UTC] PHP Stack trace:
+[10-May-2017 20:39:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/product_fivet.php:0
+[10-May-2017 20:39:36 UTC] PHP   2. topFive() /home/ubuntu/workspace/market/product_fivet.php:129
+[10-May-2017 20:40:22 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/market/product_fivet.php on line 189
+[10-May-2017 20:40:22 UTC] PHP Stack trace:
+[10-May-2017 20:40:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/product_fivet.php:0
+[10-May-2017 20:40:22 UTC] PHP   2. topFive() /home/ubuntu/workspace/market/product_fivet.php:129
+[10-May-2017 20:40:58 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/market/product_fivet.php on line 190
+[10-May-2017 20:40:58 UTC] PHP Stack trace:
+[10-May-2017 20:40:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/product_fivet.php:0
+[10-May-2017 20:40:58 UTC] PHP   2. topFive() /home/ubuntu/workspace/market/product_fivet.php:129
+[10-May-2017 20:41:25 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/market/product_fivet.php on line 190
+[10-May-2017 20:41:25 UTC] PHP Stack trace:
+[10-May-2017 20:41:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/product_fivet.php:0
+[10-May-2017 20:41:25 UTC] PHP   2. topFive() /home/ubuntu/workspace/market/product_fivet.php:129
+[10-May-2017 20:41:39 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/market/product_fivet.php on line 190
+[10-May-2017 20:41:39 UTC] PHP Stack trace:
+[10-May-2017 20:41:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/product_fivet.php:0
+[10-May-2017 20:41:39 UTC] PHP   2. topFive() /home/ubuntu/workspace/market/product_fivet.php:129
+[10-May-2017 20:43:55 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/market/product_fivet.php on line 191
+[10-May-2017 20:43:55 UTC] PHP Stack trace:
+[10-May-2017 20:43:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/product_fivet.php:0
+[10-May-2017 20:43:55 UTC] PHP   2. topFive() /home/ubuntu/workspace/market/product_fivet.php:129
+[10-May-2017 20:49:40 UTC] PHP Parse error:  syntax error, unexpected '$results' (T_VARIABLE) in /home/ubuntu/workspace/market/product_fivet.php on line 205
+[10-May-2017 20:56:10 UTC] PHP Parse error:  syntax error, unexpected 'top' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/market/product_fivet.php on line 135
+[10-May-2017 21:05:29 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/market/index.php on line 372
+[10-May-2017 21:10:03 UTC] PHP Catchable fatal error:  Object of class mysqli could not be converted to string in /home/ubuntu/workspace/market/index.php on line 151
+[10-May-2017 21:10:03 UTC] PHP Stack trace:
+[10-May-2017 21:10:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[10-May-2017 21:10:05 UTC] PHP Catchable fatal error:  Object of class mysqli could not be converted to string in /home/ubuntu/workspace/market/index.php on line 151
+[10-May-2017 21:10:05 UTC] PHP Stack trace:
+[10-May-2017 21:10:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[10-May-2017 21:10:06 UTC] PHP Catchable fatal error:  Object of class mysqli could not be converted to string in /home/ubuntu/workspace/market/index.php on line 151
+[10-May-2017 21:10:06 UTC] PHP Stack trace:
+[10-May-2017 21:10:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[10-May-2017 21:10:08 UTC] PHP Catchable fatal error:  Object of class mysqli could not be converted to string in /home/ubuntu/workspace/market/index.php on line 151
+[10-May-2017 21:10:08 UTC] PHP Stack trace:
+[10-May-2017 21:10:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[10-May-2017 21:13:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 274
+[10-May-2017 21:13:37 UTC] PHP Stack trace:
+[10-May-2017 21:13:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[10-May-2017 21:13:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/product_detail.php on line 207
+[10-May-2017 21:13:45 UTC] PHP Stack trace:
+[10-May-2017 21:13:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/product_detail.php:0
+[10-May-2017 21:13:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 274
+[10-May-2017 21:13:50 UTC] PHP Stack trace:
+[10-May-2017 21:13:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[10-May-2017 21:20:24 UTC] PHP Fatal error:  Call to undefined function testAPI() in /home/ubuntu/workspace/login/login_template.php on line 24
+[10-May-2017 21:20:24 UTC] PHP Stack trace:
+[10-May-2017 21:20:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[10-May-2017 21:20:24 UTC] PHP   2. require_once() /home/ubuntu/workspace/login/login.php:21
+[10-May-2017 21:23:02 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/login/login_template.php on line 24
+[10-May-2017 21:23:02 UTC] PHP Stack trace:
+[10-May-2017 21:23:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[11-May-2017 01:46:16 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/login/verify.php on line 69
+[11-May-2017 01:46:16 UTC] PHP Stack trace:
+[11-May-2017 01:46:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/verify.php:0
+[11-May-2017 01:46:16 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/login/verify.php:69
+[11-May-2017 01:46:49 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/login/verify.php on line 69
+[11-May-2017 01:46:49 UTC] PHP Stack trace:
+[11-May-2017 01:46:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/verify.php:0
+[11-May-2017 01:46:49 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/login/verify.php:69
+[11-May-2017 01:54:38 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/market/print_order.php on line 160
+[11-May-2017 01:54:50 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/login/verify.php on line 70
+[11-May-2017 01:54:50 UTC] PHP Stack trace:
+[11-May-2017 01:54:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/verify.php:0
+[11-May-2017 01:54:50 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/login/verify.php:70
+[11-May-2017 01:57:41 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/login/verify.php on line 70
+[11-May-2017 01:57:41 UTC] PHP Stack trace:
+[11-May-2017 01:57:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/verify.php:0
+[11-May-2017 01:57:41 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/login/verify.php:70
+[11-May-2017 01:58:29 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/market/print_order.php on line 160
+[11-May-2017 02:02:57 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/market/print_order.php on line 179
+[11-May-2017 02:43:08 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/myacc/view_my_order.php on line 68
+[11-May-2017 03:02:44 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/ubuntu/workspace/myacc/view_my_order_detail.php on line 140
+[11-May-2017 05:03:02 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/product/index.php on line 75
+[11-May-2017 05:07:00 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/product/index.php on line 75
+[11-May-2017 05:07:09 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/product/index.php on line 75
+[11-May-2017 08:23:03 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/login/fbscript.php:77) in /home/ubuntu/workspace/login/login.php on line 56
+[11-May-2017 08:23:03 UTC] PHP Stack trace:
+[11-May-2017 08:23:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[11-May-2017 08:23:03 UTC] PHP   2. session_start() /home/ubuntu/workspace/login/login.php:56
+[11-May-2017 08:27:23 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/login/fbscript.php:77) in /home/ubuntu/workspace/login/login.php on line 54
+[11-May-2017 08:27:23 UTC] PHP Stack trace:
+[11-May-2017 08:27:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[11-May-2017 08:27:23 UTC] PHP   2. session_start() /home/ubuntu/workspace/login/login.php:54
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:25:06 UTC] PHP Stack trace:
+[11-May-2017 19:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:27:22 UTC] PHP Stack trace:
+[11-May-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 173
+[11-May-2017 19:28:20 UTC] PHP Stack trace:
+[11-May-2017 19:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 19:55:08 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/market/ratingsort.php on line 138
+[11-May-2017 19:55:08 UTC] PHP Stack trace:
+[11-May-2017 19:55:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/ratingsort.php:0
+[11-May-2017 20:02:30 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/market/pricesort.php on line 160
+[11-May-2017 20:02:30 UTC] PHP Stack trace:
+[11-May-2017 20:02:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 20:03:05 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/market/pricesort.php on line 160
+[11-May-2017 20:03:05 UTC] PHP Stack trace:
+[11-May-2017 20:03:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 20:03:32 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/market/pricesort.php on line 160
+[11-May-2017 20:03:32 UTC] PHP Stack trace:
+[11-May-2017 20:03:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 20:04:44 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/market/pricesort.php on line 160
+[11-May-2017 20:04:44 UTC] PHP Stack trace:
+[11-May-2017 20:04:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 20:07:21 UTC] PHP Warning:  arsort() expects parameter 1 to be array, null given in /home/ubuntu/workspace/market/pricesort.php on line 167
+[11-May-2017 20:07:21 UTC] PHP Stack trace:
+[11-May-2017 20:07:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 20:07:21 UTC] PHP   2. arsort() /home/ubuntu/workspace/market/pricesort.php:167
+[11-May-2017 20:07:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 171
+[11-May-2017 20:07:21 UTC] PHP Stack trace:
+[11-May-2017 20:07:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 20:07:35 UTC] PHP Warning:  arsort() expects parameter 1 to be array, null given in /home/ubuntu/workspace/market/pricesort.php on line 167
+[11-May-2017 20:07:35 UTC] PHP Stack trace:
+[11-May-2017 20:07:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 20:07:35 UTC] PHP   2. arsort() /home/ubuntu/workspace/market/pricesort.php:167
+[11-May-2017 20:07:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 171
+[11-May-2017 20:07:35 UTC] PHP Stack trace:
+[11-May-2017 20:07:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 20:08:32 UTC] PHP Warning:  arsort() expects parameter 1 to be array, null given in /home/ubuntu/workspace/market/pricesort.php on line 167
+[11-May-2017 20:08:32 UTC] PHP Stack trace:
+[11-May-2017 20:08:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 20:08:32 UTC] PHP   2. arsort() /home/ubuntu/workspace/market/pricesort.php:167
+[11-May-2017 20:08:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 171
+[11-May-2017 20:08:32 UTC] PHP Stack trace:
+[11-May-2017 20:08:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[11-May-2017 23:35:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 187
+[11-May-2017 23:35:18 UTC] PHP Stack trace:
+[11-May-2017 23:35:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[11-May-2017 23:35:18 UTC] PHP   2. getProduct() /home/ubuntu/workspace/market/index.php:139
+[11-May-2017 23:35:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 187
+[11-May-2017 23:35:32 UTC] PHP Stack trace:
+[11-May-2017 23:35:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[11-May-2017 23:35:32 UTC] PHP   2. getProduct() /home/ubuntu/workspace/market/index.php:139
+[11-May-2017 23:38:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 187
+[11-May-2017 23:38:55 UTC] PHP Stack trace:
+[11-May-2017 23:38:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[11-May-2017 23:38:55 UTC] PHP   2. getProduct() /home/ubuntu/workspace/market/index.php:139
+[11-May-2017 23:47:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 187
+[11-May-2017 23:47:00 UTC] PHP Stack trace:
+[11-May-2017 23:47:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[11-May-2017 23:47:00 UTC] PHP   2. getProduct() /home/ubuntu/workspace/market/index.php:139
+[11-May-2017 23:50:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 187
+[11-May-2017 23:50:41 UTC] PHP Stack trace:
+[11-May-2017 23:50:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[11-May-2017 23:50:41 UTC] PHP   2. getProduct() /home/ubuntu/workspace/market/index.php:139
+[12-May-2017 00:00:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/cart_update.php on line 37
+[12-May-2017 00:00:27 UTC] PHP Stack trace:
+[12-May-2017 00:00:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/cart_update.php:0
+[12-May-2017 00:00:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/cart_update.php on line 37
+[12-May-2017 00:00:35 UTC] PHP Stack trace:
+[12-May-2017 00:00:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/cart_update.php:0
+[12-May-2017 02:58:01 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/login/fbscript.php:77) in /home/ubuntu/workspace/login/login.php on line 54
+[12-May-2017 02:58:01 UTC] PHP Stack trace:
+[12-May-2017 02:58:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 02:58:01 UTC] PHP   2. session_start() /home/ubuntu/workspace/login/login.php:54
+[12-May-2017 03:36:33 UTC] PHP Warning:  include_once(fbscript.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/market/index.php on line 28
+[12-May-2017 03:36:33 UTC] PHP Stack trace:
+[12-May-2017 03:36:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[12-May-2017 03:36:33 UTC] PHP Warning:  include_once(): Failed opening 'fbscript.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/market/index.php on line 28
+[12-May-2017 03:36:33 UTC] PHP Stack trace:
+[12-May-2017 03:36:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[12-May-2017 03:37:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/login/fbscript.php:99) in /home/ubuntu/workspace/login/login.php on line 54
+[12-May-2017 03:37:08 UTC] PHP Stack trace:
+[12-May-2017 03:37:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:37:08 UTC] PHP   2. setcookie() /home/ubuntu/workspace/login/login.php:54
+[12-May-2017 03:37:08 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/login/fbscript.php:99) in /home/ubuntu/workspace/login/login.php on line 55
+[12-May-2017 03:37:08 UTC] PHP Stack trace:
+[12-May-2017 03:37:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:37:08 UTC] PHP   2. session_start() /home/ubuntu/workspace/login/login.php:55
+[12-May-2017 03:38:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/login/fbscript.php:99) in /home/ubuntu/workspace/login/login.php on line 54
+[12-May-2017 03:38:32 UTC] PHP Stack trace:
+[12-May-2017 03:38:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:38:32 UTC] PHP   2. setcookie() /home/ubuntu/workspace/login/login.php:54
+[12-May-2017 03:38:32 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/login/fbscript.php:99) in /home/ubuntu/workspace/login/login.php on line 55
+[12-May-2017 03:38:32 UTC] PHP Stack trace:
+[12-May-2017 03:38:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:38:32 UTC] PHP   2. session_start() /home/ubuntu/workspace/login/login.php:55
+[12-May-2017 03:39:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/login/fbscript.php:94) in /home/ubuntu/workspace/login/login.php on line 54
+[12-May-2017 03:39:02 UTC] PHP Stack trace:
+[12-May-2017 03:39:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:39:02 UTC] PHP   2. setcookie() /home/ubuntu/workspace/login/login.php:54
+[12-May-2017 03:39:02 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/login/fbscript.php:94) in /home/ubuntu/workspace/login/login.php on line 55
+[12-May-2017 03:39:02 UTC] PHP Stack trace:
+[12-May-2017 03:39:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:39:02 UTC] PHP   2. session_start() /home/ubuntu/workspace/login/login.php:55
+[12-May-2017 03:39:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/login/fbscript.php:94) in /home/ubuntu/workspace/login/login.php on line 54
+[12-May-2017 03:39:39 UTC] PHP Stack trace:
+[12-May-2017 03:39:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:39:39 UTC] PHP   2. setcookie() /home/ubuntu/workspace/login/login.php:54
+[12-May-2017 03:39:39 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/login/fbscript.php:94) in /home/ubuntu/workspace/login/login.php on line 55
+[12-May-2017 03:39:39 UTC] PHP Stack trace:
+[12-May-2017 03:39:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:39:39 UTC] PHP   2. session_start() /home/ubuntu/workspace/login/login.php:55
+[12-May-2017 03:42:53 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/fbscript.php on line 98
+[12-May-2017 03:42:53 UTC] PHP Stack trace:
+[12-May-2017 03:42:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:42:53 UTC] PHP   2. include_once() /home/ubuntu/workspace/login/login.php:49
+[12-May-2017 03:42:53 UTC] PHP   3. session_start() /home/ubuntu/workspace/login/fbscript.php:98
+[12-May-2017 03:42:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/login.php on line 54
+[12-May-2017 03:42:53 UTC] PHP Stack trace:
+[12-May-2017 03:42:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:42:53 UTC] PHP   2. setcookie() /home/ubuntu/workspace/login/login.php:54
+[12-May-2017 03:43:37 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/fbscript.php on line 98
+[12-May-2017 03:43:37 UTC] PHP Stack trace:
+[12-May-2017 03:43:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:43:37 UTC] PHP   2. include_once() /home/ubuntu/workspace/login/login.php:49
+[12-May-2017 03:43:37 UTC] PHP   3. session_start() /home/ubuntu/workspace/login/fbscript.php:98
+[12-May-2017 03:43:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/login.php on line 54
+[12-May-2017 03:43:37 UTC] PHP Stack trace:
+[12-May-2017 03:43:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:43:37 UTC] PHP   2. setcookie() /home/ubuntu/workspace/login/login.php:54
+[12-May-2017 03:44:38 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/fbscript.php on line 98
+[12-May-2017 03:44:38 UTC] PHP Stack trace:
+[12-May-2017 03:44:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:44:38 UTC] PHP   2. include_once() /home/ubuntu/workspace/login/login.php:49
+[12-May-2017 03:44:38 UTC] PHP   3. session_start() /home/ubuntu/workspace/login/fbscript.php:98
+[12-May-2017 03:44:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/login.php on line 54
+[12-May-2017 03:44:38 UTC] PHP Stack trace:
+[12-May-2017 03:44:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:44:38 UTC] PHP   2. setcookie() /home/ubuntu/workspace/login/login.php:54
+[12-May-2017 03:44:45 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/fbscript.php on line 98
+[12-May-2017 03:44:45 UTC] PHP Stack trace:
+[12-May-2017 03:44:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:44:45 UTC] PHP   2. include_once() /home/ubuntu/workspace/login/login.php:49
+[12-May-2017 03:44:45 UTC] PHP   3. session_start() /home/ubuntu/workspace/login/fbscript.php:98
+[12-May-2017 03:46:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/login.php on line 54
+[12-May-2017 03:46:52 UTC] PHP Stack trace:
+[12-May-2017 03:46:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:46:52 UTC] PHP   2. setcookie() /home/ubuntu/workspace/login/login.php:54
+[12-May-2017 03:46:52 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/login.php on line 55
+[12-May-2017 03:46:52 UTC] PHP Stack trace:
+[12-May-2017 03:46:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:46:52 UTC] PHP   2. session_start() /home/ubuntu/workspace/login/login.php:55
+[12-May-2017 03:58:11 UTC] PHP Warning:  include_once(fbscript.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/market/index.php on line 28
+[12-May-2017 03:58:11 UTC] PHP Stack trace:
+[12-May-2017 03:58:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[12-May-2017 03:58:11 UTC] PHP Warning:  include_once(): Failed opening 'fbscript.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/market/index.php on line 28
+[12-May-2017 03:58:11 UTC] PHP Stack trace:
+[12-May-2017 03:58:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[12-May-2017 03:58:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/login.php on line 55
+[12-May-2017 03:58:34 UTC] PHP Stack trace:
+[12-May-2017 03:58:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:58:34 UTC] PHP   2. setcookie() /home/ubuntu/workspace/login/login.php:55
+[12-May-2017 03:58:34 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/login.php on line 56
+[12-May-2017 03:58:34 UTC] PHP Stack trace:
+[12-May-2017 03:58:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:58:34 UTC] PHP   2. session_start() /home/ubuntu/workspace/login/login.php:56
+[12-May-2017 03:58:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/logout_template.php on line 3
+[12-May-2017 03:58:34 UTC] PHP Stack trace:
+[12-May-2017 03:58:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:58:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/login/login.php:58
+[12-May-2017 03:58:34 UTC] PHP   3. setcookie() /home/ubuntu/workspace/login/logout_template.php:3
+[12-May-2017 03:58:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/login.php on line 55
+[12-May-2017 03:58:50 UTC] PHP Stack trace:
+[12-May-2017 03:58:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:58:50 UTC] PHP   2. setcookie() /home/ubuntu/workspace/login/login.php:55
+[12-May-2017 03:58:50 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/login.php on line 56
+[12-May-2017 03:58:50 UTC] PHP Stack trace:
+[12-May-2017 03:58:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:58:50 UTC] PHP   2. session_start() /home/ubuntu/workspace/login/login.php:56
+[12-May-2017 03:58:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/logout_template.php on line 3
+[12-May-2017 03:58:50 UTC] PHP Stack trace:
+[12-May-2017 03:58:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:58:50 UTC] PHP   2. require_once() /home/ubuntu/workspace/login/login.php:58
+[12-May-2017 03:58:50 UTC] PHP   3. setcookie() /home/ubuntu/workspace/login/logout_template.php:3
+[12-May-2017 03:59:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/login.php on line 55
+[12-May-2017 03:59:21 UTC] PHP Stack trace:
+[12-May-2017 03:59:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:59:21 UTC] PHP   2. setcookie() /home/ubuntu/workspace/login/login.php:55
+[12-May-2017 03:59:21 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/logout_template.php on line 2
+[12-May-2017 03:59:21 UTC] PHP Stack trace:
+[12-May-2017 03:59:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:59:21 UTC] PHP   2. require_once() /home/ubuntu/workspace/login/login.php:56
+[12-May-2017 03:59:21 UTC] PHP   3. session_start() /home/ubuntu/workspace/login/logout_template.php:2
+[12-May-2017 03:59:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/logout_template.php on line 3
+[12-May-2017 03:59:21 UTC] PHP Stack trace:
+[12-May-2017 03:59:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:59:21 UTC] PHP   2. require_once() /home/ubuntu/workspace/login/login.php:56
+[12-May-2017 03:59:21 UTC] PHP   3. setcookie() /home/ubuntu/workspace/login/logout_template.php:3
+[12-May-2017 03:59:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/login.php on line 55
+[12-May-2017 03:59:32 UTC] PHP Stack trace:
+[12-May-2017 03:59:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:59:32 UTC] PHP   2. setcookie() /home/ubuntu/workspace/login/login.php:55
+[12-May-2017 03:59:32 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/logout_template.php on line 2
+[12-May-2017 03:59:32 UTC] PHP Stack trace:
+[12-May-2017 03:59:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:59:32 UTC] PHP   2. require_once() /home/ubuntu/workspace/login/login.php:56
+[12-May-2017 03:59:32 UTC] PHP   3. session_start() /home/ubuntu/workspace/login/logout_template.php:2
+[12-May-2017 03:59:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/logout_template.php on line 3
+[12-May-2017 03:59:32 UTC] PHP Stack trace:
+[12-May-2017 03:59:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 03:59:32 UTC] PHP   2. require_once() /home/ubuntu/workspace/login/login.php:56
+[12-May-2017 03:59:32 UTC] PHP   3. setcookie() /home/ubuntu/workspace/login/logout_template.php:3
+[12-May-2017 04:16:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/login/fbscript.php on line 105
+[12-May-2017 04:16:42 UTC] PHP Stack trace:
+[12-May-2017 04:16:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[12-May-2017 04:16:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/login/fbscript.php on line 105
+[12-May-2017 04:16:45 UTC] PHP Stack trace:
+[12-May-2017 04:16:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[12-May-2017 04:20:49 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/login/test.php on line 54
+[12-May-2017 04:23:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/login.php on line 55
+[12-May-2017 04:23:58 UTC] PHP Stack trace:
+[12-May-2017 04:23:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 04:23:58 UTC] PHP   2. setcookie() /home/ubuntu/workspace/login/login.php:55
+[12-May-2017 04:23:58 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/logout_template.php on line 2
+[12-May-2017 04:23:58 UTC] PHP Stack trace:
+[12-May-2017 04:23:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 04:23:58 UTC] PHP   2. require_once() /home/ubuntu/workspace/login/login.php:56
+[12-May-2017 04:23:58 UTC] PHP   3. session_start() /home/ubuntu/workspace/login/logout_template.php:2
+[12-May-2017 04:23:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/logout_template.php on line 3
+[12-May-2017 04:23:58 UTC] PHP Stack trace:
+[12-May-2017 04:23:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 04:23:58 UTC] PHP   2. require_once() /home/ubuntu/workspace/login/login.php:56
+[12-May-2017 04:23:58 UTC] PHP   3. setcookie() /home/ubuntu/workspace/login/logout_template.php:3
+[12-May-2017 04:24:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/login.php on line 55
+[12-May-2017 04:24:42 UTC] PHP Stack trace:
+[12-May-2017 04:24:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 04:24:42 UTC] PHP   2. setcookie() /home/ubuntu/workspace/login/login.php:55
+[12-May-2017 04:24:42 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/logout_template.php on line 2
+[12-May-2017 04:24:42 UTC] PHP Stack trace:
+[12-May-2017 04:24:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 04:24:42 UTC] PHP   2. require_once() /home/ubuntu/workspace/login/login.php:56
+[12-May-2017 04:24:42 UTC] PHP   3. session_start() /home/ubuntu/workspace/login/logout_template.php:2
+[12-May-2017 04:24:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/logout_template.php on line 3
+[12-May-2017 04:24:42 UTC] PHP Stack trace:
+[12-May-2017 04:24:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 04:24:42 UTC] PHP   2. require_once() /home/ubuntu/workspace/login/login.php:56
+[12-May-2017 04:24:42 UTC] PHP   3. setcookie() /home/ubuntu/workspace/login/logout_template.php:3
+[12-May-2017 04:35:40 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/logout_template.php on line 2
+[12-May-2017 04:35:40 UTC] PHP Stack trace:
+[12-May-2017 04:35:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 04:35:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/login/login.php:54
+[12-May-2017 04:35:40 UTC] PHP   3. session_start() /home/ubuntu/workspace/login/logout_template.php:2
+[12-May-2017 04:35:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/logout_template.php on line 3
+[12-May-2017 04:35:40 UTC] PHP Stack trace:
+[12-May-2017 04:35:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 04:35:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/login/login.php:54
+[12-May-2017 04:35:40 UTC] PHP   3. setcookie() /home/ubuntu/workspace/login/logout_template.php:3
+[12-May-2017 04:43:34 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/logout_template.php on line 2
+[12-May-2017 04:43:34 UTC] PHP Stack trace:
+[12-May-2017 04:43:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 04:43:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/login/login.php:54
+[12-May-2017 04:43:34 UTC] PHP   3. session_start() /home/ubuntu/workspace/login/logout_template.php:2
+[12-May-2017 04:43:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/login/fbscript.php:96) in /home/ubuntu/workspace/login/logout_template.php on line 3
+[12-May-2017 04:43:34 UTC] PHP Stack trace:
+[12-May-2017 04:43:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login.php:0
+[12-May-2017 04:43:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/login/login.php:54
+[12-May-2017 04:43:34 UTC] PHP   3. setcookie() /home/ubuntu/workspace/login/logout_template.php:3
+[12-May-2017 05:09:35 UTC] PHP Parse error:  syntax error, unexpected 'include_once' (T_INCLUDE_ONCE) in /home/ubuntu/workspace/login/test.php on line 46
+[12-May-2017 05:14:16 UTC] PHP Parse error:  syntax error, unexpected 'print' (T_PRINT) in /home/ubuntu/workspace/market/index.php on line 78
+[12-May-2017 16:28:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/market/product_fivep.php on line 291
+[15-May-2017 20:32:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/product_fivem.php on line 193
+[15-May-2017 20:32:14 UTC] PHP Stack trace:
+[15-May-2017 20:32:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/product_fivem.php:0
+[15-May-2017 20:32:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/product_fivem.php on line 256
+[15-May-2017 20:32:14 UTC] PHP Stack trace:
+[15-May-2017 20:32:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/product_fivem.php:0
+[15-May-2017 20:32:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/product_fivem.php on line 319
+[15-May-2017 20:32:14 UTC] PHP Stack trace:
+[15-May-2017 20:32:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/product_fivem.php:0
+[15-May-2017 20:32:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/product_fivem.php on line 382
+[15-May-2017 20:32:14 UTC] PHP Stack trace:
+[15-May-2017 20:32:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/product_fivem.php:0
+[15-May-2017 20:32:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/product_fivem.php on line 446
+[15-May-2017 20:32:14 UTC] PHP Stack trace:
+[15-May-2017 20:32:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/product_fivem.php:0
