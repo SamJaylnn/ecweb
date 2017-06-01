@@ -53,8 +53,8 @@
                     <?php
                         
                         // build SELECT query
-                        $query = "SELECT * FROM user";
-                        $result = mysqlConnect($query);
+        //                $query = "SELECT * FROM user";
+         //               $result = mysqlConnect($query);
                         
                             print( "<h3>ECWeb User</h3><br>" );
                             print( "<table class=\"table\"> ");
@@ -71,7 +71,7 @@
                             print( "</thead>" );
                             print( "<tbody>" );
                             
-                            for ( $counter = 1; $row = mysql_fetch_row( $result ); $counter++ ) {
+     /*                       for ( $counter = 1; $row = mysql_fetch_row( $result ); $counter++ ) {
                                   // build table to display results
                                   print( "<tr>" );
                                   print( "<th scope=\"row\">". "$counter" ."</th> " );
@@ -81,7 +81,7 @@
                                       
                                   print("</tr>");
                             }
-                            
+       */                     
                             print( "</tbody>" );
                             print( "</table>" );
                             $counter = $counter - 1;
