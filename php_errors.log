@@ -1772,3 +1772,36 @@
 [01-Jun-2017 04:15:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/product/index.php:0
 [01-Jun-2017 04:15:32 UTC] PHP   2. include_once() /home/ubuntu/workspace/product/index.php:3
 [01-Jun-2017 04:15:32 UTC] PHP   3. mysqli->mysqli() /home/ubuntu/workspace/product/config.php:17
+[01-Jun-2017 05:40:31 UTC] PHP Warning:  require_once(./resources/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/secure/index.php on line 20
+[01-Jun-2017 05:40:31 UTC] PHP Stack trace:
+[01-Jun-2017 05:40:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/secure/index.php:0
+[01-Jun-2017 05:40:31 UTC] PHP Fatal error:  require_once(): Failed opening required './resources/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/secure/index.php on line 20
+[01-Jun-2017 05:40:31 UTC] PHP Stack trace:
+[01-Jun-2017 05:40:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/secure/index.php:0
+[01-Jun-2017 05:49:22 UTC] PHP Warning:  require_once(./resources/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/market/index.php on line 29
+[01-Jun-2017 05:49:22 UTC] PHP Stack trace:
+[01-Jun-2017 05:49:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[01-Jun-2017 05:49:22 UTC] PHP Fatal error:  require_once(): Failed opening required './resources/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/market/index.php on line 29
+[01-Jun-2017 05:49:22 UTC] PHP Stack trace:
+[01-Jun-2017 05:49:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[01-Jun-2017 05:49:26 UTC] PHP Warning:  require_once(./resources/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/market/index.php on line 29
+[01-Jun-2017 05:49:26 UTC] PHP Stack trace:
+[01-Jun-2017 05:49:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[01-Jun-2017 05:49:26 UTC] PHP Fatal error:  require_once(): Failed opening required './resources/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/market/index.php on line 29
+[01-Jun-2017 05:49:26 UTC] PHP Stack trace:
+[01-Jun-2017 05:49:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[01-Jun-2017 05:50:15 UTC] PHP Warning:  require_once(./resources/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/secure/index.php on line 20
+[01-Jun-2017 05:50:15 UTC] PHP Stack trace:
+[01-Jun-2017 05:50:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/secure/index.php:0
+[01-Jun-2017 05:50:15 UTC] PHP Fatal error:  require_once(): Failed opening required './resources/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/secure/index.php on line 20
+[01-Jun-2017 05:50:15 UTC] PHP Stack trace:
+[01-Jun-2017 05:50:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/secure/index.php:0
+[01-Jun-2017 05:53:35 UTC] PHP Warning:  require_once(./resources/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/user/index.php on line 20
+[01-Jun-2017 05:53:35 UTC] PHP Stack trace:
+[01-Jun-2017 05:53:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/user/index.php:0
+[01-Jun-2017 05:53:35 UTC] PHP Fatal error:  require_once(): Failed opening required './resources/header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/user/index.php on line 20
+[01-Jun-2017 05:53:35 UTC] PHP Stack trace:
+[01-Jun-2017 05:53:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/user/index.php:0
+[01-Jun-2017 06:42:35 UTC] PHP Fatal error:  Call to undefined function mysqlConnect() in /home/ubuntu/workspace/market/product_detail.php on line 77
+[01-Jun-2017 06:42:35 UTC] PHP Stack trace:
+[01-Jun-2017 06:42:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/product_detail.php:0

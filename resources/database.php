@@ -11,7 +11,7 @@
             die( "Could not connect to database" );
             
         // open database
-        if ( !mysql_select_db( "ecweb", $database ) )
+        if ( !mysql_select_db( "heroku_4314e8da0b6f03d", $database ) )
             die( "Could not open ecweb database" );
             
         // query ecweb database

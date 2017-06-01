@@ -20,61 +20,11 @@
     </head>
         
     <body>
-        <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse" id="nav-products">
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="/home.php">ECWeb</a>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="/home.php">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/about.php">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/product/index.php">Products</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/news.php">News</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/contacts.php">Contacts</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/secure/index.php">Secure</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="/user/index.php">User</a>
-              </li>
-              <li class="nav-item">
-      				  <a class="nav-link" href="/market/index.php">Market</a>
-      				</li>
-      	    <?php 
-                session_start(); 
-                if (isset($_SESSION["user"])) {
-                    print( "<li class=\"nav-item\"> ");
-      			    print( "<a class=\"nav-link\" href=\"/myacc/view_my_order.php\">MyAcc</a> ");
-      		        print( "</li> ");
-                }
-            ?>
-            </ul>
-            <form class="form-inline my-2 my-lg-0" action="/login/login.php" method="post">
-              <?php 
-                session_start(); 
-                if (isset($_SESSION["user"])) {
-                    print( "<input type=\"hidden\" name=\"type\" value=\"logout\" />" );
-                    print( "<button class=\"btn btn-outline-success my-2 my-sm-0\" type=\"submit\">Logout</button>");
-                } else {
-                    print( "<input type=\"hidden\" name=\"type\" value=\"login\" />" );
-                    print( "<button class=\"btn btn-outline-success my-2 my-sm-0\" type=\"submit\">Login</button>");
-                }
-              ?>
-            </form>
-          </div>
-        </nav>
+<?php
+$TITLE="user";
+define('__ROOT__', dirname(dirname(__FILE__)));
+require_once(__ROOT__.'/resources/header.php'); 
+?>
         
         
         <section id="query—result" style="margin:0 0">
@@ -83,7 +33,7 @@
                 <?php
                 	$ch = curl_init();
                 	$timeout = 5;
-                	curl_setopt($ch, CURLOPT_URL, "https://phpwebsite-chenshuzhongs.c9users.io/show_user.php");
+                	curl_setopt($ch, CURLOPT_URL, "https://ecwebsjsu.herokuapp.com/user/show_user.php");
                 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
                 	curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
                 	$data = curl_exec($ch);
@@ -92,21 +42,6 @@
                 ?>
                 </div>
             </div>    
-            
-            <div class="section-content" style="margin:0 auto">
-                <div class="container">
-                <?php
-                	$ch = curl_init();
-                	$timeout = 5;
-                	curl_setopt($ch, CURLOPT_URL, "https://phpwebsite-chenshuzhongs.c9users.io/show_user.php");
-                	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-                	curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
-                	$data = curl_exec($ch);
-                	curl_close($ch);
-                  echo $data;
-                ?>
-                </div>
-            </div> 
         </section>
         
         <footer id="footer-main">
