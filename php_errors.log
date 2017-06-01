@@ -1805,3 +1805,7 @@
 [01-Jun-2017 06:42:35 UTC] PHP Fatal error:  Call to undefined function mysqlConnect() in /home/ubuntu/workspace/market/product_detail.php on line 77
 [01-Jun-2017 06:42:35 UTC] PHP Stack trace:
 [01-Jun-2017 06:42:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/product_detail.php:0
+[01-Jun-2017 22:40:55 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/user/show_user.php on line 74
+[01-Jun-2017 22:40:55 UTC] PHP Stack trace:
+[01-Jun-2017 22:40:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/user/show_user.php:0
+[01-Jun-2017 22:40:55 UTC] PHP   2. mysql_fetch_row() /home/ubuntu/workspace/user/show_user.php:74
