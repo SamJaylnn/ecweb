@@ -1,6 +1,9 @@
 <?php
-  require_once($_SERVER["DOCUMENT_ROOT"] . "/resources/database.php");
+define('__ROOT__', dirname(dirname(__FILE__)));
+require_once(__ROOT__.'/resources/database.php'); 
 ?>
+   
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
