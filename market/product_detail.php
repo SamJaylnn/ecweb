@@ -139,15 +139,15 @@ require_once(__ROOT__.'/resources/header.php');
                   
                   // get the rating from table user_rate
                   $query = "SELECT SUM(rating) AS sum FROM user_rate WHERE product_id='". $row['id']."'";  
-                  $result2 = mysqlConnect($query);
-                  $row2 = mysql_fetch_array($result2);
+                  $result2 = mysqliConnect($query);
+                  $row2 = mysqli_fetch_array($result2);
                   $sum = 0;
                   if ($row2['sum'] != null) {
                     $sum = $row2['sum'];
                   }
                   $query = "SELECT COUNT(*) AS count FROM user_rate WHERE product_id='". $row['id']."'";
-                  $result3 = mysqlConnect($query);
-                  $row3 = mysql_fetch_array($result3);
+                  $result3 = mysqliConnect($query);
+                  $row3 = mysqli_fetch_array($result3);
                   $count = 1;
                   if ($row3['count'] != null && $row3['count'] != 0) {
                     $count = $row3['count'];

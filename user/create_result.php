@@ -39,7 +39,7 @@ require_once(__ROOT__.'/resources/header.php');
                         // build SELECT query
                         $query = "INSERT INTO user VALUES ('$FIRSTNAME', '$LASTNAME', '$EMAIL', '$ADDRESS', '$HOMEPHONE', '$CELLPHONE','$USERNAME','$PASSWORD');";
 
-                        if($result = mysqlConnect($query)) {
+                        if($result = mysqliConnect($query)) {
                         print( "<h3>Your data have been added successfully.</h3>" );
                         } else {
                           print( "<h3>Failed!</h3>" );

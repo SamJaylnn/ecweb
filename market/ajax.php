@@ -17,7 +17,7 @@ require_once($_SERVER["DOCUMENT_ROOT"] . "/resources/database.php");
     	}
     	$today = date("Y-m-d H:i:s");
     	$query = "INSERT INTO user_rate (username, rating, review, date, product_id, company) VALUES ('$user','$therate','$comment','$today', '$thepost', '$company')";
-    	$result = mysqlConnect($query);
+    	$result = mysqliConnect($query);
     	
     } 
 
