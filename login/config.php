@@ -1,10 +1,10 @@
 <?php
 $currency = '$'; //Currency Character or code
 
-$db_username = 'chenshuzhongs';
-$db_password = '';
-$db_name = 'ecweb';
-$db_host = 'localhost';
+$db_host = 'us-cdbr-iron-east-03.cleardb.net';
+$db_username = 'bb322e8bfccea9';
+$db_password = '245af7a1';
+$db_name = 'heroku_4314e8da0b6f03d';
 
 $shipping_cost      = 1.50; //shipping cost
 $taxes              = array( //List your Taxes percent here.

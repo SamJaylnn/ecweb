@@ -188,7 +188,7 @@ $count = 0;
     for ( $x = $arrlength - 1; $count < 5 && $x >= 0; $x-- ) {
 
       $found = 0;
-      $urlArray = array("ecweb"=>"http://www.shuzhongchen.com/market/listen.php");
+      $urlArray = array("ecweb"=>"https://ecwebsjsu.herokuapp.com/market/listen.php");
       foreach($urlArray as $Name =>$Name_value) {
       	$url = $Name_value;
       

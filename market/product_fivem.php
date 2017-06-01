@@ -193,7 +193,7 @@ $count = 0;
     foreach ( $temp_set as $key => $value ) {
 
       $found = 0;
-      $urlArray = array("ecweb"=>"http://www.shuzhongchen.com/market/listen.php");
+      $urlArray = array("ecweb"=>"https://ecwebsjsu.herokuapp.com/market/listen.php");
       foreach($urlArray as $Name =>$Name_value) {
       	$url = $Name_value;
       

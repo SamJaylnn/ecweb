@@ -135,7 +135,7 @@ if(isset($_SESSION["cart_products"]) && count($_SESSION["cart_products"])>0)
     echo "</div>";
     //topFive('all', $mysqli);
     
-    $urlArray = array("ecweb"=>"http://www.shuzhongchen.com/market/listen.php",
+    $urlArray = array("ecweb"=>"https://ecwebsjsu.herokuapp.com/market/listen.php",
         "vision"=>"http://54.193.91.74/public/Lab/final/productjson.php",
         "smile"=>"http://www.open7smile.us/sendproduct.php",
         "yuwei"=>"http://52.52.18.143/jasonproduct.php",

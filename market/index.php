@@ -134,7 +134,7 @@ if(isset($_SESSION["cart_products"]) && count($_SESSION["cart_products"])>0)
 <ul class="products">
 <!-- All product-->
 <?php
-	getProduct ("ecweb", "http://www.shuzhongchen.com/market/listen.php", $mysqli,$current_url);
+	getProduct ("ecweb", "https://ecwebsjsu.herokuapp.com/market/listen.php", $mysqli,$current_url);
 	getProduct ("vision", "http://54.193.91.74/public/Lab/final/productjson.php", $mysqli,$current_url);
 	getProduct ("smile", "http://www.open7smile.us/sendproduct.php", $mysqli,$current_url);
 	getProduct ("yuwei", "http://52.52.18.143/jasonproduct.php", $mysqli,$current_url);

@@ -1,13 +1,13 @@
 <?php
     function mysqliConnect($query) {
-        $connect = mysqli_connect("localhost", "chenshuzhongs", "", "ecweb");  
+        $connect = mysqli_connect("us-cdbr-iron-east-03.cleardb.net", "bb322e8bfccea9", "245af7a1", "heroku_4314e8da0b6f03d");  
         $result = mysqli_query($connect, $query);
         return $result;
     }
-    
+
     function mysqlConnect($query) {
         // Connect to MySQL
-        if ( !( $database = mysql_connect( "localhost", "chenshuzhongs", "") ) )
+        if ( !( $database = mysql_connect( "us-cdbr-iron-east-03.cleardb.net", "bb322e8bfccea9", "245af7a1") ) )
             die( "Could not connect to database" );
             
         // open database
