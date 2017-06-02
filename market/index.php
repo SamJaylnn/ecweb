@@ -56,6 +56,9 @@ require_once(__ROOT__.'/resources/header.php');
 
 </ul>
 
+<div class="container">
+	<a href="http://www.freepik.com">Some images of these product designed by Graphiqastock / Freepik</a>
+</div>
 
     <!-- Footer Start -->
     <?php
