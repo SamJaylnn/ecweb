@@ -121,11 +121,12 @@ EOT;
           </div>
         </section>
         
-        <footer id="footer-main">
-            <div class="container">
-                <p style="text-align: center;">Copyright &copy; 2017 Shuzhong Chen</p>
-            </div>
-        </footer>
+    <!-- Footer Start -->
+    <?php
+        define('__ROOT__', dirname(dirname(__FILE__)));
+        require_once(__ROOT__.'/resources/footer.php'); 
+    ?>
+    <!-- Footer End -->
         
         <!-- jQuery first, then Bootstrap JS. -->
         <script src="bower_components/jquery/dist/jquery.js"></script>

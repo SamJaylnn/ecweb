@@ -23,11 +23,12 @@
     </head>
         
     <body>
-<?php
-$TITLE="user";
-define('__ROOT__', dirname(dirname(__FILE__)));
-require_once(__ROOT__.'/resources/header.php'); 
-?>
+        
+    <?php
+        $TITLE="user";
+        define('__ROOT__', dirname(dirname(__FILE__)));
+        require_once(__ROOT__.'/resources/header.php'); 
+    ?>
         
         
         <section id="query—result" style="margin:100px 0">
@@ -38,7 +39,7 @@ require_once(__ROOT__.'/resources/header.php');
                         
                         // build SELECT query
                         $query = "SELECT * FROM user WHERE ". $KEYWORD . " = '" . $INPUT . "'";
-                        $result = mysqlConnect($query);
+                        $result = mysqliConnect($query);
                         
                             print( "<h3>Search Results</h3><br>" );
                             print( "<table class=\"table\"> ");
@@ -55,7 +56,7 @@ require_once(__ROOT__.'/resources/header.php');
                             print( "</thead>" );
                             print( "<tbody>" );
                             
-                            for ( $counter = 1; $row = mysql_fetch_row( $result ); $counter++ ) {
+                            for ( $counter = 1; $row = mysqli_fetch_row( $result ); $counter++ ) {
                                   // build table to display results
                                   print( "<tr>" );
                                   print( "<th scope=\"row\">". "$counter" ."</th> " );
@@ -75,13 +76,13 @@ require_once(__ROOT__.'/resources/header.php');
                 </div>
             </div>        
         </section>
-        
-        <footer id="footer-main">
-            <div class="container">
-                <p>Copyright &copy; 2017 Shuzhong Chen</p>
-            </div>
-        </footer>
-        
+    
+    <!-- Footer Start -->
+    <?php
+        define('__ROOT__', dirname(dirname(__FILE__)));
+        require_once(__ROOT__.'/resources/footer.php'); 
+    ?>
+    <!-- Footer End -->
 
     </body>
 </html>

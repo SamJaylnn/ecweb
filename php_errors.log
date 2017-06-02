@@ -1809,3 +1809,6 @@
 [01-Jun-2017 22:40:55 UTC] PHP Stack trace:
 [01-Jun-2017 22:40:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/user/show_user.php:0
 [01-Jun-2017 22:40:55 UTC] PHP   2. mysql_fetch_row() /home/ubuntu/workspace/user/show_user.php:74
+[02-Jun-2017 00:26:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/login/verify.php on line 47
+[02-Jun-2017 00:26:09 UTC] PHP Stack trace:
+[02-Jun-2017 00:26:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/verify.php:0

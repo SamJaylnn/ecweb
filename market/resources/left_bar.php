@@ -1,6 +1,6 @@
 <!-- Left bar Start -->
 <?php
-	echo '<div class="cart-view-table-left" id="view-cart" style="margin:100px auto;">';
+	echo '<div class="cart-view-table-left" id="view-cart" >';
 	echo '<h4>Sort</h4>';
 
 	echo '<table width="100%"  cellpadding="6" cellspacing="0">';

@@ -14,6 +14,13 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        
+<?php
+$TITLE="home";
+define('__ROOT__', dirname(dirname(__FILE__)));
+require_once(__ROOT__.'/resources/header.php'); 
+?>
+
         <div class="container" style="width: 400px; margin: 200px auto;">
 <?php
 
@@ -60,6 +67,14 @@
         print ("</div>");
 ?>   
         </div>
+
+    <!-- Footer Start -->
+    <?php
+        define('__ROOT__', dirname(dirname(__FILE__)));
+        require_once(__ROOT__.'/resources/footer.php'); 
+    ?>
+    <!-- Footer End -->
+
 
         <!-- jQuery first, then Bootstrap JS. -->
         <script src="bower_components/jquery/dist/jquery.js"></script>

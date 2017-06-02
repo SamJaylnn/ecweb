@@ -128,16 +128,17 @@ print<<<HERE
   <div class="container" style="width: 400px; margin: 200px auto;">
     <h3 class="col form-signin-heading">Please login first</h3>
     <br>
-    <a class="btn btn-primary" href="/home.php">Back</a>
+    <a class="btn btn-primary btn-block" style="margin: 0px auto;" href="/home.php">Back</a>
 </div>
 HERE;
 }
 ?>
-        <footer id="footer-main">
-            <div class="container">
-                <p style="text-align: center;">Copyright &copy; 2017 Shuzhong Chen</p>
-            </div>
-        </footer>
+    <!-- Footer Start -->
+    <?php
+        define('__ROOT__', dirname(dirname(__FILE__)));
+        require_once(__ROOT__.'/resources/footer.php'); 
+    ?>
+    <!-- Footer End -->
   
 </body>
 </html>

@@ -118,11 +118,12 @@ require_once(__ROOT__.'/resources/header.php');
             </div>        
         </section>
         
-        <footer id="footer-main">
-            <div class="container">
-                <p>Copyright &copy; 2017 Shuzhong Chen</p>
-            </div>
-        </footer>
+    <!-- Footer Start -->
+    <?php
+        define('__ROOT__', dirname(dirname(__FILE__)));
+        require_once(__ROOT__.'/resources/footer.php'); 
+    ?>
+    <!-- Footer End -->
         
 
     </body>

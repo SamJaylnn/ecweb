@@ -134,11 +134,11 @@ require_once "./resources/header.php";
         </section>
         
         
-        <footer id="footer-main">
-            <div class="container">
-                <p>Copyright &copy; 2017 Shuzhong Chen</p>
-            </div>
-        </footer>
+    <!-- Footer Start -->
+    <?php
+        require_once('./resources/footer.php'); 
+    ?>
+    <!-- Footer End -->
         
         
         <!-- jQuery first, then Bootstrap JS. -->

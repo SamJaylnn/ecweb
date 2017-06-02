@@ -2,7 +2,7 @@
 <?php
 if(isset($_SESSION["cart_products"]) && count($_SESSION["cart_products"])>0)
 {
-	echo '<div class="cart-view-table-front" id="view-cart" style="margin:100px auto;">';
+	echo '<div class="cart-view-table-front" id="view-cart" >';
 	echo '<h4>Shopping Cart</h4>';
 	echo '<form method="post" action="cart_update.php">';
 	echo '<table width="100%"  cellpadding="6" cellspacing="0">';

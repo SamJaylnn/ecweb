@@ -14,6 +14,11 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+<?php
+$TITLE="home";
+define('__ROOT__', dirname(dirname(__FILE__)));
+require_once(__ROOT__.'/resources/header.php'); 
+?>
         <div id="fb-root"></div>
          <script>
   window.fbAsyncInit = function() {
@@ -43,6 +48,14 @@
         require_once($_SERVER["DOCUMENT_ROOT"] . "/login/logout_template.php");
     }
 ?>
+
+    <!-- Footer Start -->
+    <?php
+        define('__ROOT__', dirname(dirname(__FILE__)));
+        require_once(__ROOT__.'/resources/footer.php'); 
+    ?>
+    <!-- Footer End -->
+    
         <!-- jQuery first, then Bootstrap JS. -->
         <script src="bower_components/jquery/dist/jquery.js"></script>
         <script src="bower_components/tether/dist/js/tether.min.js"></script>
