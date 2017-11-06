@@ -2,6 +2,15 @@
 
 A online store which is developed based on LAMP stack.
 
+## Features
+
+* User registration
+* User login/logout
+* Review/rating system
+* Shopping cart
+* History visit tracking
+* History purchase tracking
+
 ## Deployment
 
 The website is deployed on Heroku.
