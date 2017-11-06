@@ -49,11 +49,7 @@ require_once(__ROOT__.'/resources/header.php');
     echo "</div>";
     //topFive('all', $mysqli);
     
-    $urlArray = array("ecweb"=>"https://ecwebsjsu.herokuapp.com/market/listen.php",
-        "vision"=>"http://54.193.91.74/public/Lab/final/productjson.php",
-        "smile"=>"http://www.open7smile.us/sendproduct.php",
-        "yuwei"=>"http://52.52.18.143/jasonproduct.php",
-        "srivasa"=>"https://www.srivatsamulpuri.me/wp-content/uploads/2017/03/listen.php"
+    $urlArray = array("ecweb"=>"https://ecwebsjsu.herokuapp.com/market/listen.php"
     );
     
     $i = 0;
@@ -74,7 +70,7 @@ require_once(__ROOT__.'/resources/header.php');
         //var_dump($array[$i]);
         $i++;
     }
-    $result = array_merge($array[0], $array[1], $array[2], $array[3], $array[4]);
+    $result = array_merge($array[0]);
     //var_dump($result);
     if ($_GET['type'] == 'asc') {
         asort($result);

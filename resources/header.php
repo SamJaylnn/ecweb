@@ -13,7 +13,7 @@ function setActive($currentPage, $compare) {
 ?>
 
         
-        <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse" id="nav-about">
+        <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse" id="nav-main">
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>

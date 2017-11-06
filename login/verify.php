@@ -28,12 +28,7 @@ require_once(__ROOT__.'/resources/header.php');
     $userVerified = 0;
     
         $urlArray = array(
-            "ECWEB"=>"https://phpwebsite-chenshuzhongs.c9users.io/login/listen.php",
-            "vision"=>"http://54.193.91.74/public/Lab/final/userjson.php",
-            //"smile"=>"http://open7smile.us/send.php",
-            //"HealthCart"=>"https://www.srivatsamulpuri.me/wp-content/uploads/2017/03/listen.php",
-            "naser"=>"http://thenaser.com/userjson.php",
-            //"WEIYU"=>"http://52.52.18.143/userjson.php"
+            "ECWEB"=>"https://ecwebsjsu.herokuapp.com/login/listen.php"
         );
         foreach($urlArray as $Name =>$Name_value) {
             $ch = curl_init();

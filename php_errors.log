@@ -1812,3 +1812,108 @@
 [02-Jun-2017 00:26:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/login/verify.php on line 47
 [02-Jun-2017 00:26:09 UTC] PHP Stack trace:
 [02-Jun-2017 00:26:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/verify.php:0
+[24-Aug-2017 19:40:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/login/verify.php on line 47
+[24-Aug-2017 19:40:23 UTC] PHP Stack trace:
+[24-Aug-2017 19:40:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/verify.php:0
+[24-Aug-2017 19:46:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 103
+[24-Aug-2017 19:46:39 UTC] PHP Stack trace:
+[24-Aug-2017 19:46:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[24-Aug-2017 19:46:39 UTC] PHP   2. getProduct() /home/ubuntu/workspace/market/index.php:48
+[24-Aug-2017 19:48:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 103
+[24-Aug-2017 19:48:50 UTC] PHP Stack trace:
+[24-Aug-2017 19:48:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[24-Aug-2017 19:48:50 UTC] PHP   2. getProduct() /home/ubuntu/workspace/market/index.php:50
+[24-Aug-2017 19:48:50 UTC] PHP Warning:  mysqli::query(): MySQL server has gone away in /home/ubuntu/workspace/market/index.php on line 76
+[24-Aug-2017 19:48:50 UTC] PHP Stack trace:
+[24-Aug-2017 19:48:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[24-Aug-2017 19:48:50 UTC] PHP   2. getProduct() /home/ubuntu/workspace/market/index.php:51
+[24-Aug-2017 19:48:50 UTC] PHP   3. rating() /home/ubuntu/workspace/market/index.php:104
+[24-Aug-2017 19:48:50 UTC] PHP   4. mysqli->query() /home/ubuntu/workspace/market/index.php:76
+[24-Aug-2017 19:48:50 UTC] PHP Warning:  mysqli::query(): Error reading result set's header in /home/ubuntu/workspace/market/index.php on line 76
+[24-Aug-2017 19:48:50 UTC] PHP Stack trace:
+[24-Aug-2017 19:48:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[24-Aug-2017 19:48:50 UTC] PHP   2. getProduct() /home/ubuntu/workspace/market/index.php:51
+[24-Aug-2017 19:48:50 UTC] PHP   3. rating() /home/ubuntu/workspace/market/index.php:104
+[24-Aug-2017 19:48:50 UTC] PHP   4. mysqli->query() /home/ubuntu/workspace/market/index.php:76
+[24-Aug-2017 19:48:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 103
+[24-Aug-2017 19:48:51 UTC] PHP Stack trace:
+[24-Aug-2017 19:48:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[24-Aug-2017 19:48:51 UTC] PHP   2. getProduct() /home/ubuntu/workspace/market/index.php:52
+[06-Nov-2017 04:04:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 103
+[06-Nov-2017 04:04:07 UTC] PHP Stack trace:
+[06-Nov-2017 04:04:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[06-Nov-2017 04:04:07 UTC] PHP   2. getProduct() /home/ubuntu/workspace/market/index.php:48
+[06-Nov-2017 05:08:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 103
+[06-Nov-2017 05:08:05 UTC] PHP Stack trace:
+[06-Nov-2017 05:08:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[06-Nov-2017 05:08:05 UTC] PHP   2. getProduct() /home/ubuntu/workspace/market/index.php:48
+[06-Nov-2017 05:09:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 99
+[06-Nov-2017 05:09:46 UTC] PHP Stack trace:
+[06-Nov-2017 05:09:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[06-Nov-2017 05:09:46 UTC] PHP   2. getProduct() /home/ubuntu/workspace/market/index.php:48
+[06-Nov-2017 05:14:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 99
+[06-Nov-2017 05:14:25 UTC] PHP Stack trace:
+[06-Nov-2017 05:14:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[06-Nov-2017 05:14:25 UTC] PHP   2. getProduct() /home/ubuntu/workspace/market/index.php:48
+[06-Nov-2017 05:14:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 99
+[06-Nov-2017 05:14:27 UTC] PHP Stack trace:
+[06-Nov-2017 05:14:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[06-Nov-2017 05:14:27 UTC] PHP   2. getProduct() /home/ubuntu/workspace/market/index.php:48
+[06-Nov-2017 05:14:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 99
+[06-Nov-2017 05:14:29 UTC] PHP Stack trace:
+[06-Nov-2017 05:14:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[06-Nov-2017 05:14:29 UTC] PHP   2. getProduct() /home/ubuntu/workspace/market/index.php:48
+[06-Nov-2017 05:14:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/index.php on line 99
+[06-Nov-2017 05:14:30 UTC] PHP Stack trace:
+[06-Nov-2017 05:14:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/index.php:0
+[06-Nov-2017 05:14:30 UTC] PHP   2. getProduct() /home/ubuntu/workspace/market/index.php:48
+[06-Nov-2017 05:28:03 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/ubuntu/workspace/market/pricesort.php on line 73
+[06-Nov-2017 05:28:03 UTC] PHP Stack trace:
+[06-Nov-2017 05:28:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[06-Nov-2017 05:28:03 UTC] PHP   2. array_merge() /home/ubuntu/workspace/market/pricesort.php:73
+[06-Nov-2017 05:28:03 UTC] PHP Warning:  arsort() expects parameter 1 to be array, null given in /home/ubuntu/workspace/market/pricesort.php on line 78
+[06-Nov-2017 05:28:03 UTC] PHP Stack trace:
+[06-Nov-2017 05:28:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[06-Nov-2017 05:28:03 UTC] PHP   2. arsort() /home/ubuntu/workspace/market/pricesort.php:78
+[06-Nov-2017 05:28:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 82
+[06-Nov-2017 05:28:03 UTC] PHP Stack trace:
+[06-Nov-2017 05:28:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[06-Nov-2017 05:35:14 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/ubuntu/workspace/market/pricesort.php on line 73
+[06-Nov-2017 05:35:14 UTC] PHP Stack trace:
+[06-Nov-2017 05:35:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[06-Nov-2017 05:35:14 UTC] PHP   2. array_merge() /home/ubuntu/workspace/market/pricesort.php:73
+[06-Nov-2017 05:35:14 UTC] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/ubuntu/workspace/market/pricesort.php on line 76
+[06-Nov-2017 05:35:14 UTC] PHP Stack trace:
+[06-Nov-2017 05:35:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[06-Nov-2017 05:35:14 UTC] PHP   2. asort() /home/ubuntu/workspace/market/pricesort.php:76
+[06-Nov-2017 05:35:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 82
+[06-Nov-2017 05:35:14 UTC] PHP Stack trace:
+[06-Nov-2017 05:35:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[06-Nov-2017 05:35:17 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/ubuntu/workspace/market/pricesort.php on line 73
+[06-Nov-2017 05:35:17 UTC] PHP Stack trace:
+[06-Nov-2017 05:35:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[06-Nov-2017 05:35:17 UTC] PHP   2. array_merge() /home/ubuntu/workspace/market/pricesort.php:73
+[06-Nov-2017 05:35:17 UTC] PHP Warning:  arsort() expects parameter 1 to be array, null given in /home/ubuntu/workspace/market/pricesort.php on line 78
+[06-Nov-2017 05:35:17 UTC] PHP Stack trace:
+[06-Nov-2017 05:35:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[06-Nov-2017 05:35:17 UTC] PHP   2. arsort() /home/ubuntu/workspace/market/pricesort.php:78
+[06-Nov-2017 05:35:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 82
+[06-Nov-2017 05:35:17 UTC] PHP Stack trace:
+[06-Nov-2017 05:35:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[06-Nov-2017 05:35:19 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/ubuntu/workspace/market/pricesort.php on line 73
+[06-Nov-2017 05:35:19 UTC] PHP Stack trace:
+[06-Nov-2017 05:35:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[06-Nov-2017 05:35:19 UTC] PHP   2. array_merge() /home/ubuntu/workspace/market/pricesort.php:73
+[06-Nov-2017 05:35:19 UTC] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/ubuntu/workspace/market/pricesort.php on line 76
+[06-Nov-2017 05:35:19 UTC] PHP Stack trace:
+[06-Nov-2017 05:35:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[06-Nov-2017 05:35:19 UTC] PHP   2. asort() /home/ubuntu/workspace/market/pricesort.php:76
+[06-Nov-2017 05:35:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/pricesort.php on line 82
+[06-Nov-2017 05:35:19 UTC] PHP Stack trace:
+[06-Nov-2017 05:35:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/pricesort.php:0
+[06-Nov-2017 05:38:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/product_fivem.php on line 246
+[06-Nov-2017 05:38:14 UTC] PHP Stack trace:
+[06-Nov-2017 05:38:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/product_fivem.php:0
+[06-Nov-2017 05:40:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/product_fivem.php on line 246
+[06-Nov-2017 05:40:25 UTC] PHP Stack trace:
+[06-Nov-2017 05:40:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/product_fivem.php:0

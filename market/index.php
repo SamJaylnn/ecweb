@@ -45,11 +45,7 @@ require_once(__ROOT__.'/resources/header.php');
 <ul class="products">
 <!-- All product-->
 <?php
-	getProduct ("ecweb", "http://www.shuzhongchen.com/market/listen.php", $mysqli,$current_url);
-	getProduct ("vision", "http://54.193.91.74/public/Lab/final/productjson.php", $mysqli,$current_url);
-	getProduct ("smile", "http://www.open7smile.us/sendproduct.php", $mysqli,$current_url);
-	getProduct ("yuwei", "http://52.52.18.143/jasonproduct.php", $mysqli,$current_url);
-	getProduct ("srivasa", "https://www.srivatsamulpuri.me/wp-content/uploads/2017/03/listen.php", $mysqli,$current_url);
+	getProduct ("ecweb", "https://ecwebsjsu.herokuapp.com/market/listen.php", $mysqli,$current_url);
 ?>   
 <!-- All product List End -->
 

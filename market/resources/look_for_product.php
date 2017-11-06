@@ -1,11 +1,7 @@
 <?php
   function lookForProduct($product_id) {
       $found = 0;
-      $urlArray = array("ecweb"=>"https://ecwebsjsu.herokuapp.com/market/listen.php",
-        "vision"=>"http://54.193.91.74/public/Lab/final/productjson.php",
-        "smile"=>"http://www.open7smile.us/sendproduct.php",
-        "yuwei"=>"http://52.52.18.143/jasonproduct.php",
-        "srivasa"=>"https://www.srivatsamulpuri.me/wp-content/uploads/2017/03/listen.php");
+      $urlArray = array("ecweb"=>"https://ecwebsjsu.herokuapp.com/market/listen.php");
       foreach($urlArray as $Name =>$Name_value) {
       	$url = $Name_value;
       
