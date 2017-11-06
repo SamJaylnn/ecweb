@@ -45,34 +45,9 @@ require_once(__ROOT__.'/resources/header.php');
 
 <?php  
     echo "<div style=\"text-align:center; margin:40px auto 10px auto\">";
-    echo "<h3>Market place top five</h3>";
-    echo "</div>";
-    topFive('all', $mysqli);
-    echo "<hr>";
-    echo "<div style=\"text-align:center; margin:40px auto 10px auto\">";
     echo "<h3>ECWeb top five</h3>";
     echo "</div>";
     topFive('ecweb', $mysqli);
-    echo "<hr>";
-    echo "<div style=\"text-align:center; margin:40px auto 10px auto\">";
-    echo "<h3>Vision top five</h3>";
-    echo "</div>";
-    topFive('vision', $mysqli);
-    echo "<hr>";
-    echo "<div style=\"text-align:center; margin:40px auto 10px auto\">";
-    echo "<h3>Smile top five</h3>";
-    echo "</div>";
-    topFive('smile', $mysqli);
-    echo "<hr>";
-    echo "<div style=\"text-align:center; margin:40px auto 10px auto\">";
-    echo "<h3>Weiyu top five</h3>";
-    echo "</div>";
-    topFive('yuwei', $mysqli);
-    echo "<hr>";
-    echo "<div style=\"text-align:center; margin:40px auto 10px auto\">";
-    echo "<h3>Srivasa top five</h3>";
-    echo "</div>";
-    topFive('srivasa', $mysqli);
     echo "<hr>";
 ?>
 </ul>

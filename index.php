@@ -54,7 +54,7 @@ function setActive($currentPage, $compare) {
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="home.php">ECWeb</a>
+          <a class="navbar-brand" href="/index.php">ECWeb</a>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
@@ -97,10 +97,6 @@ function setActive($currentPage, $compare) {
                 } else {
                     print( "<input type=\"hidden\" name=\"type\" value=\"login\" />" );
                     print( "<button class=\"btn btn-outline-success my-2 my-sm-0\" type=\"submit\">Login</button>");
-                    print( "</form>");
-                    print( "<form class=\"form-inline my-2 my-lg-0\" action=\"/login/login.php\" method=\"post\">");
-                    print( "<input type=\"hidden\" name=\"type\" value=\"fb\" />" );
-                    print( "<button class=\"btn btn-outline-success my-2 my-sm-0\" type=\"submit\">Facebook Login</button>");
                 }
               ?>
             </form>
