@@ -27,7 +27,7 @@ require_once "./resources/header.php";
                   <h2>Contact Me</h2>
                   <br>
                   <?php
-                      $file_handle = fopen("resources/txt/contacts.txt", "r");
+                      $file_handle = fopen("resources/txt/contact.txt", "r");
                       while (!feof($file_handle)) {
                          $line = fgets($file_handle);
                          echo "<p>$line</p>";
