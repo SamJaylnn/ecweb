@@ -37,7 +37,7 @@ require_once(__ROOT__.'/resources/header.php');
                             die();
                         }
                         if ( isset( $NewUser ) ) {
-                            if ( !( $file = fopen( "/home/ubuntu/workspace/resources/txt/password.txt", "a" ) ) ) {
+                            if ( !( $file = fopen( "resources/txt/password.txt", "a" ) ) ) {
                                 print( "<section><div class='section-content'><div class='container'><h2>Could not open password file to add new user</h2></div></div></section>" );
                                 die();
                             }
