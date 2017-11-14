@@ -15,7 +15,8 @@ if(isset($_POST["type"]) && $_POST["type"]=='add' && $_POST["product_qty"]>0)
 	
 	
                   $found = 0;
-                  $urlArray = array("ecweb"=>"https://ecwebsjsu.herokuapp.com/market/listen.php"
+                  $urlArray = array("ecweb"=>"https://ecwebsjsu.herokuapp.com/market/listen.php",
+                                    "vision"=>"http://54.193.91.74/public/Lab/final/productjson.php"
                   );
                   foreach($urlArray as $Name =>$Name_value) {
                   	$url = $Name_value;

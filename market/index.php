@@ -46,6 +46,7 @@ require_once(__ROOT__.'/resources/header.php');
 <!-- All product-->
 <?php
 	getProduct ("ecweb", "https://ecwebsjsu.herokuapp.com/market/listen.php", $mysqli,$current_url);
+	getProduct ("vision", "http://54.193.91.74/public/Lab/final/productjson.php", $mysqli,$current_url);
 ?>   
 <!-- All product List End -->
 

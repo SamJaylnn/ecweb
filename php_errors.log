@@ -1917,3 +1917,4 @@
 [06-Nov-2017 05:40:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/market/product_fivem.php on line 246
 [06-Nov-2017 05:40:25 UTC] PHP Stack trace:
 [06-Nov-2017 05:40:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/market/product_fivem.php:0
+[14-Nov-2017 19:46:38 UTC] PHP Parse error:  syntax error, unexpected '，' (T_STRING), expecting ')' in /home/ubuntu/workspace/market/cart_update.php on line 18
