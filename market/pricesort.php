@@ -49,7 +49,8 @@ require_once(__ROOT__.'/resources/header.php');
     echo "</div>";
     //topFive('all', $mysqli);
     
-    $urlArray = array("ecweb"=>"https://ecwebsjsu.herokuapp.com/market/listen.php"
+    $urlArray = array("ecweb"=>"https://ecwebsjsu.herokuapp.com/market/listen.php",
+                                "vision"=>"http://54.193.91.74/public/Lab/final/productjson.php"
     );
     
     $i = 0;
